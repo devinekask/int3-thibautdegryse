@@ -11,22 +11,25 @@
   </head>
   <body>
     <header>
-      <div class="container">
         <nav>
-         <ul class="navigation__list">
-          <li> <a class="home--image" href="index.php">home</li>
-          <li> <a href="index.php">home</li>
-          <li> <a href="index.php?page=diy">diy</li>
-          <li> <a href="index.php?page=kit">kits</li>
-         </ul>
+          <div class="container">
+            <ul class="navigation__list">
+              <li> <a class="home--image" href="index.php">home</li>
+              <li> <a href="index.php">home</li>
+              <li> <a href="index.php?page=diy">diy</li>
+              <li> <a href="index.php?page=kit">kits</li>
+           </ul>
+          </div>
+       
         </nav>
-      </div>
      
 
      
     </header>
     <main class="content">
-      <?php echo $content;?>
+      <div class=container>
+       <?php echo $content;?>
+      </div>
     </main>
  
     <?php echo $js; ?>
