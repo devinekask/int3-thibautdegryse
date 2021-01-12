@@ -1,27 +1,10 @@
 :root {
-  /* colors */
-   --colorText: #1f1f1f;
-   --colorRed: #ee090d;
-   --colorDarkGrey: #5e5e5e;
-   --colorLightGrey: #f4f4f4;
-   --colorWhite: white;
-   --colorBlack: black;
   /* fontsizes */
-  --fontThanks: 5.5rem;
-   --fontTitle: 3.5rem;
-   --fontTruePrice: 3rem;
-   --fontProduct: 2.5rem;
-   --fontAuthor: 2rem;
-   --fontRegular: 1.8rem;
-   --fontName: 1.7rem;
-   --fontHeadline: 1.6rem;
-   --fontSmall: 1.5rem;
-   --fontSmaller: 1.4rem; 
-   /* borders */
-   --borderDetails: solid .2rem #5E5E5E; 
-   /* margins */
-   --borderDetailsMargin: 2.7rem;
-   /* opacity */
-   --borderDetailsOpacity: .5;
+  --headerTitel: 13.2rem;
+  --topicTitel: 4.2rem;
+  --titel: 3.2rem;
+  --paginaOmschrijving: 2rem;
+  --paginaInleiding: 1.9rem;
 }
+
  

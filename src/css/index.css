@@ -1,10 +1,29 @@
-body {
-  background: url(../assets/images/background-image.png) no-repeat center center fixed;
+.header__titel {
+  font-size: var(--headerTitel);
+  text-transform: uppercase;
 }
 
-@media only screen and (min-width: 1792px) {
-  body {
-    background: url(../assets/images/background-imagex1792.png) no-repeat center center fixed;
-  }
+.pagina__inleiding {
+  font-size: var(--paginaInleiding);
+}
 
+.countdown {
+  font-size: 10.2rem;
+  font-family: "hkGrotesk";
+}
+
+.titel--twee {
+  text-align: center;
+}
+
+.pagina__inleiding--twee {
+  text-align: center;
+}
+
+.topicTitel {
+  font-size: var(--topicTitel);
+}
+
+.topicTitel::first-letter {
+  text-transform: capitalize;
 }

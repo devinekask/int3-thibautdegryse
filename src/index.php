@@ -13,6 +13,10 @@ $routes = array(
   'diy' => array(
     'controller' => 'Materials',
     'action' => 'diy'
+  ),
+  'kits' => array(
+    'controller' => 'Materials',
+    'action' => 'kits'
   )
 
 );

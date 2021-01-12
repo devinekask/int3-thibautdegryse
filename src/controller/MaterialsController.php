@@ -23,6 +23,16 @@ class MaterialsController extends Controller {
     $this->set('title', 'Diy');
 
   }
+
+  public function kits() {
+
+    $materials = $this->materialsDAO->selectAllMaterials();
+
+    $this->set('materials', $materials);
+    $this->set('currentPage', 'kits');
+    $this->set('title', 'Kits');
+
+  }
 }
 
 ?>

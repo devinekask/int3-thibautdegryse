@@ -1,0 +1,30 @@
+.titel {
+  font-size: var(--titel);
+}
+
+.pagina__omschrijving {
+  font-size: var(--paginaOmschrijving);
+}
+
+.totaal__prijs {
+  font-size: 2.2rem;
+}
+
+.materiaal__titel {
+  font-size: var(--paginaOmschrijving);
+}
+
+.materiaal__omschrijving {
+  font-size: 1.7rem;
+}
+
+.materiaal__omschrijving::first-letter,
+.titel::first-letter,
+.materiaal__titel::first-letter {
+  text-transform: capitalize;
+}
+
+.materiaal__prijs {
+  font-size: var(--paginaOmschrijving);
+  font-weight: bold;
+}

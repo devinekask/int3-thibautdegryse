@@ -14,10 +14,10 @@
         <nav>
           <div class="container">
             <ul class="navigation__list">
-              <li> <a class="home--image" href="index.php">home</li>
-              <li> <a href="index.php">home</li>
-              <li> <a href="index.php?page=diy">diy</li>
-              <li> <a href="index.php?page=kit">kits</li>
+              <li> <a class="home--image" href="index.php">home </a></li>
+              <li> <a href="index.php">home </a></li>
+              <li> <a href="index.php?page=diy">diy </a></li>
+              <li> <a href="index.php?page=kits">kits </a></li>
            </ul>
           </div>
        

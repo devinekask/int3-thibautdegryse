@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "hkGrotesk";
+    src: url(../assets/fonts/HKGrotesk-Regular.woff2);
+  }
+
+
+
+
+
+
+
+
+
+
+.HK-Grotesk {
+    font-family: 'HK Grotesk';
+    font-weight: 300;
+    font-style: normal;
+}
