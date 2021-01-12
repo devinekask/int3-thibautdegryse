@@ -1,0 +1,18 @@
+.container {
+  width: 96rem;
+  margin: 0rem auto;
+}
+
+.navigation__list {
+  display: flex;
+  margin: 10.7rem;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+}
+
+.home--image {
+  background-image: url("/src/assets/images/logo.png") no-repeat;
+  width: 97px;
+  height: 116px;
+
+}
