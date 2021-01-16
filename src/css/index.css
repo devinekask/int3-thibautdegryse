@@ -43,6 +43,8 @@
   color: var(--kleurRood);
   text-align: center;
   margin: 0 13rem 1rem 0;
+
+  font-family: grotesk;
 }
 
 .subtitel::first-letter {

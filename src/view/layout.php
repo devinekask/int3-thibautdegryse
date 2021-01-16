@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="nl">
    <head>
@@ -24,7 +22,6 @@
          </nav>
       </header>
       <main class="content">
-         <div class=container>
          <?php echo $content;?>
       </main>
       <?php echo $js; ?>

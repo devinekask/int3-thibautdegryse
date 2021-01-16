@@ -4,6 +4,7 @@
 @import url(fonts.css);
 
 @import url(index.css);
+@import url(about.css);
 @import url(kits.css);
 
 html {
@@ -30,3 +31,4 @@ html {
   display: none;
 }
 /* CONTENT */
+

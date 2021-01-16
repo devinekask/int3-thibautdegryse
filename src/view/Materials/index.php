@@ -1,5 +1,3 @@
-
-
 <div class="container">
    <div class="header">
       <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="header grid image">
@@ -28,6 +26,7 @@
       </section>
    </article>
 </div>
+
 <div class="info__container">
    <div class="container">
       <div class="info">
