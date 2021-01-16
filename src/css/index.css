@@ -24,6 +24,13 @@
   margin: 5.8rem auto;
 }
 
+.hamer {
+  position: absolute;
+  top: -21rem;
+  right: -3rem;
+  z-index: 1;
+}
+
 .inleiding__section {
   display: flex;
   flex-direction: column;
@@ -53,4 +60,96 @@
 
 .strong__gelukkig {
   text-transform: uppercase;
+}
+
+.buttons {
+  margin: 8rem auto;
+}
+
+.button {
+  text-decoration: none;
+  padding: 1.5rem;
+  font-size: var(--paginaStandaard);
+  border-radius: 0.3rem;
+  margin: 3.5rem;
+}
+
+.button--tutorial {
+  background-color: var(--kleurRood);
+  color: var(--kleurWit);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurDRood));
+}
+
+.button--tutorial:hover {
+  background-color: var(--kleurDRood);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurRood));
+}
+
+.button--about {
+  color: var(--kleurDBlauw);
+  border: solid 0.2rem;
+}
+
+.button--about:hover {
+  color: var(--kleurWit);
+  background-color: var(--kleurDBlauw);
+}
+
+.volleyball__image {
+  position: relative;
+  margin: -15rem -132rem -10rem 0;
+}
+
+.info__container {
+  background-color: var(--kleurBlauw);
+  height: 50rem;
+  padding: 6.3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titel {
+  font-size: var(--titel);
+  color: var(--kleurRood);
+}
+
+.inleiding--waar {
+  margin-top: 1rem;
+}
+
+.countdown {
+  color: var(--kleurRood);
+  margin-top: 1.4rem;
+}
+
+.count {
+  font-size: var(--paginaStandaard);
+  text-transform: capitalize;
+}
+
+.countdown--container {
+  display: flex;
+}
+
+
+.dagen {
+  font-size: 4rem;
+}
+.dagen--cijfer {
+  font-size: 8rem;
+}
+
+.uren {
+  font-size: 3rem;
+}
+
+.seconden--cijfer {
+  font-size: 3rem;
+}
+.seconden {
+  font-size: 4rem;
 }

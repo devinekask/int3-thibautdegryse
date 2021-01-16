@@ -10,9 +10,9 @@ $routes = array(
     'controller' => 'Materials',
     'action' => 'index'
   ),
-  'diy' => array(
+  'about' => array(
     'controller' => 'Materials',
-    'action' => 'diy'
+    'action' => 'about'
   ),
   'kits' => array(
     'controller' => 'Materials',

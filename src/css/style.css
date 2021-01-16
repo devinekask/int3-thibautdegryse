@@ -8,7 +8,7 @@
 
 html {
   font-size: 62.5%;
-  background-color: #fffffc;
+  background-color: var(--kleurWit);
   box-sizing: border-box;
   height: 100%;
   font-family: Helvetica, sans-serif;

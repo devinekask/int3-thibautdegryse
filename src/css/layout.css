@@ -7,7 +7,7 @@
   display: flex;
   font-size: var(--paginaStandaard);
   align-items: center;
-  margin-top: 1.8rem;
+  margin: 1.8rem 0 auto;
   position: relative;
   z-index: 1;
 }
@@ -18,14 +18,10 @@
   height: 11.6rem;
 }
 
-.navigation__container {
-  display: flex;
-  margin: var(--center);
-}
 
 .navigation__item {
   text-decoration: none;
-  margin: 7rem;
+  margin: 10rem;
   text-transform: capitalize;
   color: var(--kleurDBlauw)
 }
