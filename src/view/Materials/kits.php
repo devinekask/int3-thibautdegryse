@@ -7,7 +7,9 @@
      <p class="totaal__prijs">
          €... prijs van de kit
      </p>
-     
+
+
+
     <div class="grid__container">
         <?php foreach ($materials as $material):?>
          <section class="materiaal">
@@ -18,4 +20,4 @@
          </section>
         <?php endforeach?>
     </div>
-    </article>
+</article>

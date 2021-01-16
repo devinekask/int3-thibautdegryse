@@ -14,17 +14,16 @@
         <nav>
           <div class="container">
             <ul class="navigation__list">
-              <li> <a class="home--image" href="index.php">home </a></li>
-              <li> <a href="index.php">home </a></li>
-              <li> <a href="index.php?page=diy">diy </a></li>
-              <li> <a href="index.php?page=kits">kits </a></li>
+               <a class="home__image" href="index.php"></a>
+                <div class="navigation__container">
+                  <li> <a class="navigation__item" href="index.php">home </a></li>
+                  <li> <a class="navigation__item" href="index.php?page=diy">over ons</a></li>
+                  <li> <a class="navigation__item" href="index.php?page=kits">opbouw kits </a></li>
+              </div>
            </ul>
           </div>
        
         </nav>
-     
-
-     
     </header>
     <main class="content">
       <div class=container>

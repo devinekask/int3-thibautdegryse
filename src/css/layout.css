@@ -1,19 +1,35 @@
 .container {
-    width: 96rem;
-    margin: 0rem auto;
-  }
+  width: 96rem;
+  margin: var(--center);
+}
 
 .navigation__list {
   display: flex;
-  margin: 10.7rem;
-  font-size: 1.9rem;
-  text-transform: uppercase;
-  ;
+  font-size: var(--paginaStandaard);
+  align-items: center;
+  margin-top: 1.8rem;
+  position: relative;
+  z-index: 1;
 }
 
-.home--image {
-  background-image: url("/src/assets/images/logo.png") no-repeat;
-  width: 97px;
-  height: 116px;
+.home__image {
+  background: url(../assets/logos/logo.png) no-repeat;
+  width: 9.7rem;
+  height: 11.6rem;
+}
 
+.navigation__container {
+  display: flex;
+  margin: var(--center);
+}
+
+.navigation__item {
+  text-decoration: none;
+  margin: 7rem;
+  text-transform: capitalize;
+  color: var(--kleurDBlauw)
+}
+
+.navigation__item:hover {
+  color: var(--kleurRood);
 }

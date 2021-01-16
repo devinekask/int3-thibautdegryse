@@ -6,13 +6,13 @@
 @import url(index.css);
 @import url(kits.css);
 
-
 html {
   font-size: 62.5%;
+  background-color: #fffffc;
   box-sizing: border-box;
   height: 100%;
   font-family: Helvetica, sans-serif;
-  color: #1f1f1f;
+  color: #466c90;
   scroll-behavior: smooth;
 }
 /* stylelint-disable */
@@ -27,9 +27,6 @@ html {
 }
 
 .has-js {
- display: none;
+  display: none;
 }
 /* CONTENT */
-
-
-

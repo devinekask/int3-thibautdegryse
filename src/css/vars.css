@@ -1,10 +1,19 @@
 :root {
   /* fontsizes */
-  --headerTitel: 13.2rem;
-  --topicTitel: 4.2rem;
-  --titel: 3.2rem;
-  --paginaOmschrijving: 2rem;
-  --paginaInleiding: 1.9rem;
+  --subTitel: 4.2rem;
+  --inleiding: 2rem;
+  --paginaStandaard: 1.9rem;
+
+
+
+  /* margins */
+  --center: 0 auto;
+
+  /* colours */
+  --kleurRood:#ef695d;
+  --kleurDBlauw:#466c90;
 }
+
+
 
  
