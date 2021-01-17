@@ -3,6 +3,11 @@
   margin: var(--center);
 }
 
+.footer__kleur {
+  height: 3.3rem;
+  background-color: var(--kleurZand);
+}
+
 .navigation__list {
   display: flex;
   font-size: var(--paginaStandaard);
@@ -12,20 +17,20 @@
   z-index: 1;
 }
 
-.home__image {
+.link__item--home {
   background: url(../assets/logos/logo.png) no-repeat;
+  display: block;
   width: 9.7rem;
   height: 11.6rem;
 }
 
-
-.navigation__item {
+.link__item {
   text-decoration: none;
   margin: 10rem;
   text-transform: capitalize;
-  color: var(--kleurDBlauw)
+  color: var(--kleurDBlauw);
 }
 
-.navigation__item:hover {
+.link__item:hover {
   color: var(--kleurRood);
 }

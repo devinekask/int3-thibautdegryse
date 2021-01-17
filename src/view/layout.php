@@ -13,10 +13,10 @@
          <nav>
             <div class="container">
                <ul class="navigation__list">
-                  <a class="home__image" href="index.php"></a>
-                  <li> <a class="navigation__item" href="index.php">home </a></li>
-                  <li> <a class="navigation__item" href="index.php?page=about">over ons</a></li>
-                  <li> <a class="navigation__item" href="index.php?page=kits">opbouw kits </a></li>
+                  <li class="navigation__item"> <a class="link__item--home" href="index.php"> <span class="hidden">home</span> </a> </li>
+                  <li class="navigation__item"> <a class="link__item" href="index.php">home </a></li>
+                  <li class="navigation__item"> <a class="link__item" href="index.php?page=about">over ons</a></li>
+                  <li class="navigation__item"> <a class="link__item" href="index.php?page=kits">opbouw kits </a></li>
                </ul>
             </div>
          </nav>
@@ -24,7 +24,9 @@
       <main class="content">
          <?php echo $content;?>
       </main>
+      <footer>
+         <div class="footer__kleur"></div>
+      </footer>
       <?php echo $js; ?>
    </body>
 </html>
-

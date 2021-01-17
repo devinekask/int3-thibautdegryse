@@ -1,14 +1,15 @@
 .about__grid {
-  position: fixed;
-  top: 0;
+  top: -21.1rem;
+  position: absolute;
   z-index: -1;
+  width: 100vw;
 }
 
 .about__beach {
-    position: fixed;
-    top:0;
-    right: 0;
-  }
+  position: absolute;
+  top: -21.1rem;
+  right: 0;
+}
 
 .about__titel {
   font-size: var(--titelTwee);
@@ -35,3 +36,66 @@
   text-transform: capitalize;
   margin-top: 4rem;
 }
+
+.afbeeldingen__maker {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+  justify-content: center;
+}
+
+.afbeelding__maker {
+  margin: 2rem;
+}
+
+.footer__titel {
+  color: var(--kleurRood);
+  font-size: var(--footerTitel);
+  text-transform: capitalize;
+}
+
+.info__container--about {
+  height: 15.5rem;
+  margin-top: 10rem;
+}
+
+.footer__links--twitter {
+  background: url(../assets/images/twitter.svg) no-repeat;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.footer__links--facebook {
+  background: url(../assets/images/facebook.svg) no-repeat;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+}
+.footer__links--instagram {
+  background: url(../assets/images/instagram.svg) no-repeat;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.footnote {
+  font-size: var(--inleiding);
+  width: 33rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 50rem;
+}
+
+.footer__nav--item {
+  padding: 0 3.5rem;
+}
+
+

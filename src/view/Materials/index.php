@@ -26,7 +26,6 @@
       </section>
    </article>
 </div>
-
 <div class="info__container">
    <div class="container">
       <div class="info">
@@ -57,5 +56,4 @@
 <article>
    <h1>de drijvende strandstoel</h1>
 </article>
-</div>
 

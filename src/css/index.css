@@ -137,7 +137,6 @@
   display: flex;
 }
 
-
 .dagen {
   font-size: 4rem;
 }
@@ -154,4 +153,18 @@
 }
 .seconden {
   font-size: 4rem;
+}
+
+@media only screen and (max-width: 1792px) {
+  .header__grid {
+    right: -41rem;
+  }
+
+  .volleyball__image {
+    margin-right: -118rem;
+  }
+
+  .buttons {
+    margin-right: 23rem;
+  }
 }
