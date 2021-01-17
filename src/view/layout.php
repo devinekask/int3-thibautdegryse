@@ -5,7 +5,6 @@
       <meta charset="utf-8">
       <meta name="description" content="mini maker faire">
       <meta name="keywords" content="makers, gent, makerfaire">
-      <title><?php echo $title?></title>
       <?php echo $css;?>
    </head>
    <body>

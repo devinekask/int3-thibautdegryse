@@ -131,12 +131,41 @@
 }
 
 .afbeelding__maker {
-  margin: 3rem .2rem 0 0;
-  
+  margin: 3rem 0.2rem 0 0;
 }
 
 .about__fotos {
   display: flex;
+}
+
+@media only screen and (max-width: 414px) {
+  .about__grid {
+    top: -21.2rem;
+    margin-left: 0rem;
+  }
+  .about__beach {
+    display: none;
+  }
+
+  .tekst {
+    width: 37.7rem;
+  }
+
+  .about__fotos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer__nav {
+  margin-left: -10rem;
+  margin-top: 3rem;
 }
 
 @media only screen and (max-width: 375px) {
@@ -147,6 +176,4 @@
   .about__beach {
     display: none;
   }
-
-
 }
