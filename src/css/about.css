@@ -1,8 +1,13 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url("../assets/fonts/grotesk/HKGrotesk-Regular.woff2") format("woff2"),
+    url("../assets/fonts/grotesk/HKGrotesk-Regular.woff") format("woff");
+}
+
 .about__grid {
-  top: -21.1rem;
+  top: -21.2rem;
   position: absolute;
   z-index: -1;
-  width: 100vw;
 }
 
 .about__beach {
@@ -11,7 +16,7 @@
   right: 0;
 }
 
-.about__titel {
+.titel {
   font-size: var(--titelTwee);
   margin-top: 7.7rem;
   color: var(--kleurRood);
@@ -24,7 +29,7 @@
   text-transform: capitalize;
 }
 
-.about__tekst {
+.tekst {
   font-size: var(--inleiding);
   width: 71.8rem;
   margin-top: 2.4rem;
@@ -98,4 +103,50 @@
   padding: 0 3.5rem;
 }
 
+@media only screen and (max-width: 834px) {
+  .container {
+    width: 90vw;
+  }
+  .tekst {
+    width: 43.7rem;
+  }
 
+  .about__grid {
+    top: -21.2rem;
+    margin-left: 60rem;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .about__beach {
+    top: -21.2rem;
+    z-index: -1;
+  }
+
+  .footer__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 13rem;
+  }
+}
+
+.afbeelding__maker {
+  margin: 3rem .2rem 0 0;
+  
+}
+
+.about__fotos {
+  display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+  .about__grid {
+    display: none;
+  }
+
+  .about__beach {
+    display: none;
+  }
+
+
+}

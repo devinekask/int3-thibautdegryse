@@ -5,13 +5,91 @@
 .header__grid {
   position: absolute;
   top: -23rem;
-  right: -48rem;
+  right: 0;
 }
 
 .header__beach {
   position: absolute;
   top: -20rem;
-  right: 74rem;
+  right: 122rem;
+}
+
+.vorm {
+  width: 100rem;
+  height: 100rem;
+  background: var(--kleurWater);
+  position: absolute;
+  z-index: -1;
+
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.octagon {
+  top: -38rem;
+  right: 149rem;
+}
+
+.octagon2 {
+  top: -58rem;
+  right: 140rem;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.75;
+  }
+  50% {
+    -webkit-transform: scale(0.75);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+.octagon:before {
+  content: "";
+  width: 100rem;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29rem solid var(--kleurWater);
+  border-left: 29rem solid var(--kleurWit);
+  border-right: 29rem solid var(--kleurWit);
+}
+.octagon:after {
+  content: "";
+  width: 100rem;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29rem solid var(--kleurWater);
+  border-left: 29rem solid var(--kleurWit);
+  border-right: 29rem solid var(--kleurWit);
+}
+
+.header__umbrella {
+  position: absolute;
+  top: 8rem;
+  right: 143rem;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 60000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 .header__titel {
@@ -27,8 +105,13 @@
 .hamer {
   position: absolute;
   top: -21rem;
-  right: -3rem;
+  right: 47rem;
   z-index: 1;
+}
+
+.hamer--small {
+  top: -15rem;
+  right: 0rem;
 }
 
 .inleiding__section {
@@ -102,6 +185,26 @@
   margin: -15rem -132rem -10rem 0;
 }
 
+.pentagon {
+  position: relative;
+  width: 5.4rem;
+  box-sizing: content-box;
+  border-width: 5rem 1.8rem 0;
+  border-style: solid;
+  border-color: var(--kleurWater) transparent;
+}
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -8.5rem;
+  left: -1.8rem;
+  border-width: 0 4.5rem 3.5rem;
+  border-style: solid;
+  border-color: transparent transparent var(--kleurWater);
+}
+
 .info__container {
   background-color: var(--kleurBlauw);
   height: 50rem;
@@ -155,16 +258,50 @@
   font-size: 4rem;
 }
 
-@media only screen and (max-width: 1792px) {
+@media only screen and (max-width: 834px) {
   .header__grid {
-    right: -41rem;
+    position: absolute;
+    top: -19rem;
+    right: 0rem;
+  }
+
+  .header__titel {
+    background: url(../assets/logos/makerfaire834.svg) no-repeat;
+    width: 38.7rem;
+    height: 18.5rem;
+  }
+
+  .hamer {
+    top: -15rem;
+    right: 11rem;
+  }
+
+  .header__beach {
+    position: absolute;
+    top: -19rem;
+    right: 45rem;
   }
 
   .volleyball__image {
-    margin-right: -118rem;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header__titel {
+    background: url(../assets/logos/makerfaire375.svg) no-repeat;
+    width: 23.9rem;
+    height: 11.5rem;
   }
 
-  .buttons {
-    margin-right: 23rem;
+  .hamer {
+    top: -11rem;
+    right: 2rem;
+  }
+
+  .header__beach {
+    position: absolute;
+    top: -7rem;
+    right: 28rem;
   }
 }

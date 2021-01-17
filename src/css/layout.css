@@ -34,3 +34,22 @@
 .link__item:hover {
   color: var(--kleurRood);
 }
+
+@media only screen and (max-width: 834px) {
+
+  .container {
+    width: 100vw;
+  }
+  .navigation__list {
+    margin: 1rem 0rem auto;
+  }
+
+  .link__item {
+    margin: 2rem;
+    padding: 3rem;
+  }
+
+  .link__item--home {
+    margin-left: 0;
+  }
+}

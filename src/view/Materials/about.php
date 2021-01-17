@@ -1,12 +1,30 @@
 <div class="header">
-   <img class="about__grid" src="assets/grids/about-grid1920.svg" alt="header grid image">
-   <img class="about__beach" src="assets/images/about-beach1920.svg" alt="">
+
+
+
+
+ 
+
+   <picture>
+      <source class="about__grid" srcset="assets/grids/about-grid-1920.svg" media="(min-width: 1920px)">
+      <source class="about__grid" srcset="assets/grids/about-grid-834.svg" media="(min-width: 834px)">
+      <img class="about__grid" src="assets/grids/about-grid-1920.svg" alt="about grid image">
+    </picture>
+
+    <picture>
+      <source class="about__beach" srcset="assets/images/about-beach-1920.svg" media="(min-width: 1920px)">
+      <source class="about__beach" srcset="assets/images/about-beach-834.svg" media="(min-width: 834px)">
+      <img class="about__beach" src="assets/images/about-beach-1920.svg" alt="about beach image">
+    </picture>
+
+
+
 </div>
 <article>
    <div class="container">
-      <h1 class="about__titel">over ons</h1>
+      <h1 class="titel">over ons</h1>
       <p class="about__inleiding">(de mini maker faire)</p>
-      <p class="about__tekst">
+      <p class="tekst">
          De mini maker faire is een kermis waar je de gekste dingen tegenkomt. 
          Bedenk je ze niet zelf, dan kom je ze gwoon hier tegen. 
          Van een robot tot een mondkapjes kanon, we’ve got it all en dat voor alle soorten makers. 
@@ -15,7 +33,7 @@
       </p>
       <section>
          <h2 class="onderTitel">editie 2021</h2>
-         <p class="about__tekst">
+         <p class="tekst">
             Na het uitstel van 2020 zij we in 2021 terug op 30 april en op 1 en 2 mei. 
             Ook dit jaar gaat door in de Chinastraat in Gent. 
             Het makers-hartje van Gent.
@@ -23,14 +41,29 @@
       </section>
       <section>
          <h2 class="onderTitel">editie 2020 (de vorige dus)</h2>
-         <p class="about__tekst">
+         <p class="tekst">
             2019 was onze eerste editie van de Mini Maker Faire en we tonen ook heel graag het succes die we toen hadden.
          </p>
-         <div class="afbeeldingen__maker">
-            <img class="afbeelding__maker" src="assets/images/afbeelding1.jpg" alt="foto van de vorige maker faire">
-            <img class="afbeelding__maker" src="assets/images/afbeelding2.jpg" alt="foto van de vorige maker faire">
-            <img class="afbeelding__maker" src="assets/images/afbeelding3.jpg" alt="foto van de vorige maker faire">
-         </div>
+         <div class="about__fotos">
+         <picture>
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding1.jpg" media="(min-width: 1920px)">
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding1-834.jpg" media="(min-width: 834px)">
+      <img class="afbeelding__maker" src="assets/images/afbeelding1.jpg" alt="foto van de vorige maker faire">
+    </picture>
+    
+    <picture>
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding2.jpg" media="(min-width: 1920px)">
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding2-834.jpg" media="(min-width: 834px)">
+      <img class="afbeelding__maker" src="assets/images/afbeelding2.jpg" alt="foto van de vorige maker faire">
+    </picture>
+
+    <picture>
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding3.jpg" media="(min-width: 1920px)">
+      <source class="afbeelding__maker" srcset="assets/images/afbeelding3-834.jpg" media="(min-width: 834px)">
+      <img class="afbeelding__maker" src="assets/images/afbeelding3.jpg" alt="foto van de vorige maker faire">
+    </picture>
+    </div>
+
       </section>
    </div>
    <div class="info__container info__container--about">
@@ -53,3 +86,7 @@
       </div>
    </div>
 </article>
+
+
+
+

@@ -7,6 +7,7 @@
   --footerTitel: 2.2rem;
   --inleiding: 2rem;
   --paginaStandaard: 1.9rem;
+  --materiaalOmschrijving: 1.6rem;
   --paginaNote: 1.5rem;
 
   /* margins */
@@ -16,7 +17,9 @@
   --kleurRood: #ef695d;
   --kleurDRood: #c9594f;
   --kleurDBlauw: #466c90;
+  --kleurWater: #6d9fcf;
   --kleurWit: #fffffc;
   --kleurBlauw: #eff5f8;
   --kleurZand: #fcf1dc;
+  --kleurSchaduw: #cae2e6;
 }

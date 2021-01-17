@@ -1,30 +1,57 @@
-.titel {
-  font-size: var(--titel);
+.container--shop {
+  height: 100%;
 }
 
-.pagina__omschrijving {
-  font-size: var(--paginaOmschrijving);
+.about__grid--kits {
+  top: 0;
 }
 
-.totaal__prijs {
-  font-size: 2.2rem;
+.tekst--kits {
+  margin-bottom: 13rem;
+}
+
+.grid__wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8rem 4.2rem;
+}
+
+.materiaal__container {
+  background-color: var(--kleurWit);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurSchaduw));
+  border-radius: 1.2rem;
+}
+
+
+.align {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.materiaal__afbeelding {
+  margin-top: -5rem;
+}
+
+.materiaal__content {
+  margin-top: 1.6rem;
+  padding: 2rem;
 }
 
 .materiaal__titel {
-  font-size: var(--paginaOmschrijving);
-}
-
-.materiaal__omschrijving {
-  font-size: 1.7rem;
-}
-
-.materiaal__omschrijving::first-letter,
-.titel::first-letter,
-.materiaal__titel::first-letter {
+  font-size: var(--footerTitel);
   text-transform: capitalize;
 }
 
+.materiaal__omschrijving {
+  font-size: var(--materiaalOmschrijving);
+  margin-top: 0.3rem;
+}
+
 .materiaal__prijs {
-  font-size: var(--paginaOmschrijving);
-  font-weight: bold;
+  font-size: var(--footerTitel);
+  color: var(--kleurRood);
+  margin-top: 3rem;
 }

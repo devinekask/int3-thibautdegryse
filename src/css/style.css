@@ -3,6 +3,8 @@
 @import url(vars.css);
 @import url(fonts.css);
 
+
+
 @import url(index.css);
 @import url(about.css);
 @import url(kits.css);
@@ -10,6 +12,7 @@
 html {
   font-size: 62.5%;
   background-color: var(--kleurWit);
+  
   box-sizing: border-box;
   height: 100%;
   font-family: Helvetica, sans-serif;

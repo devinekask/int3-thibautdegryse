@@ -1,14 +1,67 @@
-<div class="container">
    <div class="header">
-      <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="header grid image">
+
+
+
+      <picture>
+            <source class="header__grid" srcset="assets/grids/main-grid-1920.svg" media="(min-width: 1920px)">
+            <source class="header__grid" srcset="assets/grids/main-grid-834.svg" media="(min-width: 834px)">
+            <source class="header__grid" srcset="assets/grids/main-grid-375.svg" media="(min-width: 375px)">
+            <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="header grid image">
+         </picture>
    </div>
    <div class="header">
-      <img class="header__beach" src="assets/images/beach1920.svg" alt="the beach with a cinema4d grid">
+
+
+         <picture>
+            <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(min-width: 1920px)">
+            <source class="header__beach" srcset="assets/images/main-beach-834.svg" media="(min-width: 834px)">
+            <source class="header__beach" srcset="assets/images/main-beach-375.svg" media="(min-width: 375px)">
+            <img class="header__beach" src="assets/images/main-beach-1920.svg" alt="the beach with a cinema4d grid">
+
+         </picture>
+         <div class="container">
+
+      <div class="vorm octagon"></div>
+      <div class="vorm octagon2"></div>
+
+   </div>
+   <div class="header">
+      <img class="header__umbrella" src="assets/images/umbrella.png" alt="an umbrella on the beach">
    </div>
    <article>
       <h1 class=header__titel> <span class="hidden">mini maker faire</span></h1>
       <div class="header"> 
-         <img class="hamer" src="assets/images/hammer1920.png" alt="a hammer">
+
+         <picture>
+            <source class="hamer" srcset="assets/images/hammer1920.png" media="(min-width: 1920px)">
+            <source class="hamer" srcset="assets/images/hammer834.png" media="(min-width: 834px)">
+            <source class="hamer" srcset="assets/images/hammer375.png" media="(min-width: 375px)">
+            <img class="hamer" src="assets/images/hammer1920.png" alt="a hammer" />
+         </picture>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       </div>
       <section class="inleiding__section">
          <h2 class="subtitel"> de mini maker faire?</h2>
@@ -23,6 +76,8 @@
             <a class="button button--about" href="index.php?page=about">meer over de faire</a>
          </div>
          <img class="volleyball__image" src="assets/images/volleyball1920.svg" alt="volleyball with axis" width="594" height="369">
+         <div class="pentagon"></div>
+
       </section>
    </article>
 </div>
