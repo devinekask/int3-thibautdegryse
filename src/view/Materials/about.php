@@ -1,26 +1,15 @@
 <div class="header">
-
-
-
-
- 
-
    <picture>
       <source class="about__grid" srcset="assets/grids/about-grid-1920.svg" media="(min-width: 1920px)">
       <source class="about__grid" srcset="assets/grids/about-grid-834.svg" media="(min-width: 834px)">
       <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(min-width: 414px)">
       <img class="about__grid" src="assets/grids/about-grid-1920.svg" alt="about grid image">
-    </picture>
-
-    <picture>
+   </picture>
+   <picture>
       <source class="about__beach" srcset="assets/images/about-beach-1920.svg" media="(min-width: 1920px)">
       <source class="about__beach" srcset="assets/images/about-beach-834.svg" media="(min-width: 834px)">
       <img class="about__beach" src="assets/images/about-beach-1920.svg" alt="about beach image">
-    </picture>
-
-
-
-
+   </picture>
 </div>
 <article>
    <div class="container">
@@ -47,25 +36,22 @@
             2019 was onze eerste editie van de Mini Maker Faire en we tonen ook heel graag het succes die we toen hadden.
          </p>
          <div class="about__fotos">
-         <picture>
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding1.jpg" media="(min-width: 1920px)">
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding1-834.jpg" media="(min-width: 834px)">
-      <img class="afbeelding__maker" src="assets/images/afbeelding1.jpg" alt="foto van de vorige maker faire">
-    </picture>
-    
-    <picture>
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding2.jpg" media="(min-width: 1920px)">
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding2-834.jpg" media="(min-width: 834px)">
-      <img class="afbeelding__maker" src="assets/images/afbeelding2.jpg" alt="foto van de vorige maker faire">
-    </picture>
-
-    <picture>
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding3.jpg" media="(min-width: 1920px)">
-      <source class="afbeelding__maker" srcset="assets/images/afbeelding3-834.jpg" media="(min-width: 834px)">
-      <img class="afbeelding__maker" src="assets/images/afbeelding3.jpg" alt="foto van de vorige maker faire">
-    </picture>
-    </div>
-
+            <picture>
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding1.jpg" media="(min-width: 1920px)">
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding1-834.jpg" media="(min-width: 834px)">
+               <img class="afbeelding__maker" src="assets/images/afbeelding1.jpg" alt="foto van de vorige maker faire">
+            </picture>
+            <picture>
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding2.jpg" media="(min-width: 1920px)">
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding2-834.jpg" media="(min-width: 834px)">
+               <img class="afbeelding__maker" src="assets/images/afbeelding2.jpg" alt="foto van de vorige maker faire">
+            </picture>
+            <picture>
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding3.jpg" media="(min-width: 1920px)">
+               <source class="afbeelding__maker" srcset="assets/images/afbeelding3-834.jpg" media="(min-width: 834px)">
+               <img class="afbeelding__maker" src="assets/images/afbeelding3.jpg" alt="foto van de vorige maker faire">
+            </picture>
+         </div>
       </section>
    </div>
    <div class="info__container info__container--about">
@@ -88,7 +74,4 @@
       </div>
    </div>
 </article>
-
-
-
 
