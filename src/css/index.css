@@ -1,4 +1,3 @@
-
 .header {
   position: relative;
 }
@@ -17,25 +16,30 @@
 }
 
 .vorm {
-  width: 100rem;
-  height: 100rem;
-  background: var(--kleurWater);
+  background-image: url(../assets/ploygon/blue-polygon.svg);
+  width: 55.8rem;
+  height: 55.6rem;
   position: absolute;
+  top: 9rem;
+  right: 151rem;
   z-index: -1;
 
   animation-name: waves;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-.octagon {
-  top: -38rem;
-  right: 149rem;
+
+.vorm2 {
+  top: -1rem;
+  right: 121rem;
+  rotate: 30deg;
 }
 
-.octagon2 {
-  top: -58rem;
-  right: 140rem;
+.vorm3 {
+  top: 0;
+  right: 135rem;
+  rotate: 70deg;
 }
 
 @-webkit-keyframes waves {
@@ -51,28 +55,6 @@
     -webkit-transform: scale(1);
     opacity: 1;
   }
-}
-.octagon:before {
-  content: "";
-  width: 100rem;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-bottom: 29rem solid var(--kleurWater);
-  border-left: 29rem solid var(--kleurWit);
-  border-right: 29rem solid var(--kleurWit);
-}
-.octagon:after {
-  content: "";
-  width: 100rem;
-  height: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  border-top: 29rem solid var(--kleurWater);
-  border-left: 29rem solid var(--kleurWit);
-  border-right: 29rem solid var(--kleurWit);
 }
 
 .header__umbrella {
@@ -104,17 +86,6 @@
   margin: 5.8rem auto;
 }
 
-.hamer {
-  position: absolute;
-  top: -21rem;
-  right: 47rem;
-  z-index: 1;
-}
-
-.hamer--small {
-  top: -15rem;
-  right: 0rem;
-}
 
 .inleiding__section {
   display: flex;
@@ -182,14 +153,9 @@
   background-color: var(--kleurDBlauw);
 }
 
-.volleyball__image {
-  position: relative;
-  margin: -15rem -132rem -10rem 0;
-}
-
 .info__container {
   background-color: var(--kleurBlauw);
-  height: 50rem;
+  height: 40rem;
   padding: 6.3rem;
 }
 
@@ -208,73 +174,60 @@
   margin-top: 1rem;
 }
 
-.countdown {
-  color: var(--kleurRood);
-  margin-top: 1.4rem;
-}
-
-.count {
-  font-size: var(--paginaStandaard);
-  text-transform: capitalize;
-}
-
-.countdown--container {
+.info__section {
   display: flex;
 }
 
-.dagen {
-  font-size: 4rem;
-}
-.dagen--cijfer {
-  font-size: 8rem;
+.eend {
+  margin-left: -50rem;
+  margin-top: -15rem;
 }
 
-.uren {
-  font-size: 3rem;
+.divider {
+  display: block;
+  margin: 13rem auto;
+  max-width: 100%
 }
 
-.seconden--cijfer {
-  font-size: 3rem;
-}
-.seconden {
-  font-size: 4rem;
-}
 
 @media only screen and (max-width: 1792px) {
-  .volleyball__image {
-    margin: -15rem -120rem -10rem 0;
-  }
-
   .header__umbrella {
     right: 134rem;
-  }
-
-  .hamer {
-    position: absolute;
-    right: 40rem;
   }
 
   .header__beach {
     right: 113rem;
   }
+
+  .vorm {
+    top: 9rem;
+    right: 142rem;
+  }
+
+  .vorm2 {
+    top: -3rem;
+    right: 112rem;
+  }
+
+  .vorm3 {
+    top: 0;
+    right: 125rem;
+  }
 }
 
-@media only screen and (max-width: 1919px) {
-  .volleyball__image {
-    margin: -15rem -108rem -10rem 0;
+@media only screen and (max-width: 1600px) {
+  .hamer {
+    right: 15rem;
+  }
+}
+
+@media only screen and (max-width: 1094px) {
+  .hamer {
+    right: 10rem;
   }
 }
 
 @media only screen and (max-width: 1440px) {
-  .volleyball__image {
-    position: relative;
-    margin: -7rem -83rem -10rem 0;
-  }
-
-  .hamer {
-    right: 22rem;
-  }
-
   .header__beach {
     right: 78rem;
   }
@@ -282,11 +235,24 @@
   .header__umbrella {
     right: 100rem;
   }
+
+  .vorm {
+    display: none;
+  }
+
+  .eend {
+    margin-left: -40rem;
+    margin-top: -15rem;
+  }
 }
 
-@media only screen and (max-width: 1439px) {
-  .volleyball__image {
-    display: none;
+@media only screen and (max-width: 1433px) {
+  .header__beach {
+    right: 105rem;
+  }
+
+  .header__umbrella {
+    right: 115rem;
   }
 }
 
@@ -319,10 +285,6 @@
     top: 7rem;
     right: 60rem;
   }
-
-  .volleyball__image {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -331,9 +293,20 @@
   }
 
   .hamer {
-    top: -11rem;
-    right: 0rem;
+    display: none;
   }
+
+  .titel {
+    font-size: 1.8rem;
+  }
+
+  .countdown {
+    display: none;
+  }
+
+  .inleiding {
+    font: 1.8rem;
+}
 
   .subtitel {
     font-size: 2.2rem;

@@ -1,6 +1,10 @@
 .container {
-  width: 96rem;
+  max-width: 96rem;
   margin: var(--center);
+}
+
+.content__container {
+    width: 95%;
 }
 
 .footer__kleur {

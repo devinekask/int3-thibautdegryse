@@ -17,6 +17,10 @@ $routes = array(
   'kits' => array(
     'controller' => 'Materials',
     'action' => 'kits'
+  ),
+  'form' => array(
+    'controller' => 'Orders',
+    'action' => 'form'
   )
 
 );

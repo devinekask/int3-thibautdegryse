@@ -3,6 +3,7 @@
 require_once __DIR__ . '/Controller.php';
 require_once __DIR__ . '/../dao/MaterialsDAO.php';
 
+
 class MaterialsController extends Controller {
    private $materialsDAO;
 
@@ -12,15 +13,15 @@ class MaterialsController extends Controller {
   }
    public function index() {
 
-    $this->set('currentPage', 'home');
-    $this->set('title', 'Home');
+    $this->set('currentPage', 'huis');
+    $this->set('title', 'Huis');
 
   }
 
   public function about() {
 
-    $this->set('currentPage', 'about');
-    $this->set('title', 'About');
+    $this->set('currentPage', 'Oover');
+    $this->set('title', 'Over');
 
   }
 
@@ -29,8 +30,8 @@ class MaterialsController extends Controller {
     $materials = $this->materialsDAO->selectAllMaterials();
 
     $this->set('materials', $materials);
-    $this->set('currentPage', 'kits');
-    $this->set('title', 'Kits');
+    $this->set('currentPage', 'bestel iets');
+    $this->set('title', 'Bestel iets');
 
   }
 }
