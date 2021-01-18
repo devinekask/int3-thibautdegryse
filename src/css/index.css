@@ -1,0 +1,374 @@
+<<<<<<< HEAD
+=======
+.header {
+  position: relative;
+}
+
+.header__grid {
+  position: absolute;
+  top: -23rem;
+  right: 0;
+  z-index: -1;
+}
+
+.header__beach {
+  position: absolute;
+  top: -20rem;
+  right: 122rem;
+}
+
+.vorm {
+  width: 100rem;
+  height: 100rem;
+  background: var(--kleurWater);
+  position: absolute;
+  z-index: -1;
+
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.octagon {
+  top: -38rem;
+  right: 149rem;
+}
+
+.octagon2 {
+  top: -58rem;
+  right: 140rem;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.75;
+  }
+  50% {
+    -webkit-transform: scale(0.75);
+    opacity: 0.25;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+  }
+}
+.octagon:before {
+  content: "";
+  width: 100rem;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29rem solid var(--kleurWater);
+  border-left: 29rem solid var(--kleurWit);
+  border-right: 29rem solid var(--kleurWit);
+}
+.octagon:after {
+  content: "";
+  width: 100rem;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29rem solid var(--kleurWater);
+  border-left: 29rem solid var(--kleurWit);
+  border-right: 29rem solid var(--kleurWit);
+}
+
+.header__umbrella {
+  position: absolute;
+  top: 8rem;
+  right: 143rem;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 60000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.header__titel {
+  background: url(../assets/logos/makerfaire1920.svg) no-repeat;
+  width: 68.8rem;
+  height: 33rem;
+  z-index: 1;
+  position: relative;
+  display: block;
+  margin: 5.8rem auto;
+}
+
+.hamer {
+  position: absolute;
+  top: -21rem;
+  right: 47rem;
+  z-index: 1;
+}
+
+.hamer--small {
+  top: -15rem;
+  right: 0rem;
+}
+
+.inleiding__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.subtitel {
+  font-size: var(--subTitel);
+  color: var(--kleurRood);
+  text-align: center;
+  margin: 0 13rem 1rem 0;
+
+  font-family: grotesk;
+}
+
+.subtitel::first-letter {
+  text-transform: capitalize;
+}
+
+.inleiding {
+  font-size: var(--inleiding);
+  width: 52.3rem;
+}
+
+.strong {
+  text-transform: capitalize;
+}
+
+.strong__gelukkig {
+  text-transform: uppercase;
+}
+
+.buttons {
+  margin: 8rem auto;
+}
+
+.button {
+  text-decoration: none;
+  padding: 1.5rem;
+  font-size: var(--paginaStandaard);
+  border-radius: 0.3rem;
+  margin: 3.5rem;
+}
+
+.button--tutorial {
+  background-color: var(--kleurRood);
+  color: var(--kleurWit);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurDRood));
+}
+
+.button--tutorial:hover {
+  background-color: var(--kleurDRood);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurRood));
+}
+
+.button--about {
+  color: var(--kleurDBlauw);
+  border: solid 0.2rem;
+}
+
+.button--about:hover {
+  color: var(--kleurWit);
+  background-color: var(--kleurDBlauw);
+}
+
+.volleyball__image {
+  position: relative;
+  margin: -15rem -132rem -10rem 0;
+}
+
+.pentagon {
+  position: relative;
+  width: 5.4rem;
+  box-sizing: content-box;
+  border-width: 5rem 1.8rem 0;
+  border-style: solid;
+  border-color: var(--kleurWater) transparent;
+}
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -8.5rem;
+  left: -1.8rem;
+  border-width: 0 4.5rem 3.5rem;
+  border-style: solid;
+  border-color: transparent transparent var(--kleurWater);
+}
+
+.info__container {
+  background-color: var(--kleurBlauw);
+  height: 50rem;
+  padding: 6.3rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titel {
+  font-size: var(--titel);
+  color: var(--kleurRood);
+}
+
+.inleiding--waar {
+  margin-top: 1rem;
+}
+
+.countdown {
+  color: var(--kleurRood);
+  margin-top: 1.4rem;
+}
+
+.count {
+  font-size: var(--paginaStandaard);
+  text-transform: capitalize;
+}
+
+.countdown--container {
+  display: flex;
+}
+
+.dagen {
+  font-size: 4rem;
+}
+.dagen--cijfer {
+  font-size: 8rem;
+}
+
+.uren {
+  font-size: 3rem;
+}
+
+.seconden--cijfer {
+  font-size: 3rem;
+}
+.seconden {
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 1792px) {
+  .volleyball__image {
+    margin: -15rem -120rem -10rem 0;
+  }
+
+  .header__umbrella {
+    right: 134rem;
+  }
+
+  .hamer {
+    position: absolute;
+    right: 40rem;
+  }
+
+  .header__beach {
+    right: 113rem;
+  }
+}
+
+@media only screen and (max-width: 1919px) {
+  .volleyball__image {
+    margin: -15rem -108rem -10rem 0;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .volleyball__image {
+    position: relative;
+    margin: -7rem -83rem -10rem 0;
+  }
+
+  .hamer {
+    right: 22rem;
+  }
+
+  .header__beach {
+    right: 78rem;
+  }
+
+  .header__umbrella {
+    right: 100rem;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .volleyball__image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .header__grid {
+    position: absolute;
+    top: -19rem;
+    right: 0rem;
+  }
+
+  .header__titel {
+    background: url(../assets/logos/makerfaire834.svg) no-repeat;
+    width: 38.7rem;
+    height: 18.5rem;
+  }
+
+  .hamer {
+    top: -15rem;
+    right: 11rem;
+  }
+
+  .header__beach {
+    position: absolute;
+    top: -19rem;
+    right: 45rem;
+    z-index: 0;
+  }
+
+  .header__umbrella {
+    top: 7rem;
+    right: 60rem;
+  }
+
+  .volleyball__image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .header__titel {
+    background: url(../assets/logos/makerfaire375.svg) no-repeat;
+    width: 23.9rem;
+    height: 11.5rem;
+  }
+
+  .header__beach {
+    position: absolute;
+    top: -19rem;
+    right: 45rem;
+    z-index: 0;
+  }
+
+  .hamer {
+    top: -11rem;
+    right: 2rem;
+  }
+
+  .header__beach {
+    position: absolute;
+    top: -7rem;
+    right: 28rem;
+  }
+}
+>>>>>>> develop

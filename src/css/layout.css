@@ -1,18 +1,83 @@
 .container {
   width: 96rem;
-  margin: 0rem auto;
+  margin: var(--center);
+}
+
+.footer__kleur {
+  height: 3.3rem;
+  background-color: var(--kleurZand);
 }
 
 .navigation__list {
   display: flex;
-  margin: 10.7rem;
-  font-size: 1.9rem;
-  text-transform: uppercase;
+  font-size: var(--paginaStandaard);
+  align-items: center;
+  margin: 1.8rem 0 auto;
+  position: static;
+  z-index: 1;
 }
 
-.home--image {
-  background-image: url("/src/assets/images/logo.png") no-repeat;
-  width: 97px;
-  height: 116px;
+.link__item--home {
+  background: url(../assets/logos/logo.png) no-repeat;
+  display: block;
+  width: 9.7rem;
+  height: 11.6rem;
+}
 
+.link__item {
+  text-decoration: none;
+  margin: 10rem;
+  text-transform: capitalize;
+  color: var(--kleurDBlauw);
+}
+
+.link__item:hover {
+  color: var(--kleurRood);
+}
+
+@media only screen and (max-width: 1400px) {
+  .link__item {
+    margin: 8rem;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .link__item {
+    margin: 5rem;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .container {
+    width: 100vw;
+  }
+  .navigation__list {
+    margin: 1rem 0rem auto;
+  }
+
+  .link__item {
+    margin: 1rem;
+    padding: 3rem;
+  }
+
+  .link__item--home {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 833px) {
+  
+  .link__item {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .container {
+    width: 85vw;
+  }
+
+  .link__item--home {
+    display: none;
+  }
 }

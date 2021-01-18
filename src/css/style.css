@@ -1,15 +1,22 @@
 @import url(reset.css);
 @import url(layout.css);
 @import url(vars.css);
+@import url(fonts.css);
+
+
 
 @import url(index.css);
+@import url(about.css);
+@import url(kits.css);
 
 html {
   font-size: 62.5%;
+  background-color: var(--kleurWit);
+  
   box-sizing: border-box;
   height: 100%;
   font-family: Helvetica, sans-serif;
-  color: #1f1f1f;
+  color: #466c90;
   scroll-behavior: smooth;
 }
 /* stylelint-disable */
@@ -24,9 +31,7 @@ html {
 }
 
 .has-js {
- display: none;
+  display: none;
 }
 /* CONTENT */
-
-
 

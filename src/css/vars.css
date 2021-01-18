@@ -1,27 +1,25 @@
 :root {
-  /* colors */
-   --colorText: #1f1f1f;
-   --colorRed: #ee090d;
-   --colorDarkGrey: #5e5e5e;
-   --colorLightGrey: #f4f4f4;
-   --colorWhite: white;
-   --colorBlack: black;
   /* fontsizes */
-  --fontThanks: 5.5rem;
-   --fontTitle: 3.5rem;
-   --fontTruePrice: 3rem;
-   --fontProduct: 2.5rem;
-   --fontAuthor: 2rem;
-   --fontRegular: 1.8rem;
-   --fontName: 1.7rem;
-   --fontHeadline: 1.6rem;
-   --fontSmall: 1.5rem;
-   --fontSmaller: 1.4rem; 
-   /* borders */
-   --borderDetails: solid .2rem #5E5E5E; 
-   /* margins */
-   --borderDetailsMargin: 2.7rem;
-   /* opacity */
-   --borderDetailsOpacity: .5;
+  --titel: 6.2rem;
+  --titelTwee: 5.2rem;
+  --subTitel: 4.2rem;
+  --onderTitel: 3.2rem;
+  --footerTitel: 2.2rem;
+  --inleiding: 2rem;
+  --paginaStandaard: 1.9rem;
+  --materiaalOmschrijving: 1.6rem;
+  --paginaNote: 1.5rem;
+
+  /* margins */
+  --center: 0 auto;
+
+  /* colours */
+  --kleurRood: #ef695d;
+  --kleurDRood: #c9594f;
+  --kleurDBlauw: #466c90;
+  --kleurWater: #6d9fcf;
+  --kleurWit: #fffffc;
+  --kleurBlauw: #eff5f8;
+  --kleurZand: #fcf1dc;
+  --kleurSchaduw: #cae2e6;
 }
- 

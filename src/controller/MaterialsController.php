@@ -13,14 +13,24 @@ class MaterialsController extends Controller {
    public function index() {
 
     $this->set('currentPage', 'home');
-    $this->set('title', 'Blub');
+    $this->set('title', 'Home');
 
   }
 
-  public function diy() {
+  public function about() {
 
-    $this->set('currentPage', 'diy');
-    $this->set('title', 'Diy');
+    $this->set('currentPage', 'about');
+    $this->set('title', 'About');
+
+  }
+
+  public function kits() {
+
+    $materials = $this->materialsDAO->selectAllMaterials();
+
+    $this->set('materials', $materials);
+    $this->set('currentPage', 'kits');
+    $this->set('title', 'Kits');
 
   }
 }

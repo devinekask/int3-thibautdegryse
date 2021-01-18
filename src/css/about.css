@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Grotesk";
+  src: url("../assets/fonts/grotesk/HKGrotesk-Regular.woff2") format("woff2"),
+    url("../assets/fonts/grotesk/HKGrotesk-Regular.woff") format("woff");
+}
+
+.about__grid {
+  top: -21.2rem;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.about__beach {
+  position: absolute;
+  top: -21.1rem;
+  right: 0;
+}
+
+.titel {
+  font-size: var(--titelTwee);
+  margin-top: 7.7rem;
+  color: var(--kleurRood);
+  text-transform: capitalize;
+}
+
+.about__inleiding {
+  color: var(--kleurRood);
+  font-size: var(--paginaNote);
+  text-transform: capitalize;
+}
+
+.tekst {
+  font-size: var(--inleiding);
+  width: 71.8rem;
+  margin-top: 2.4rem;
+}
+
+.onderTitel {
+  font-size: var(--onderTitel);
+  color: var(--kleurRood);
+  text-transform: capitalize;
+  margin-top: 4rem;
+}
+
+.afbeeldingen__maker {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+  justify-content: center;
+}
+
+.afbeelding__maker {
+  margin: 2rem;
+}
+
+.footer__titel {
+  color: var(--kleurRood);
+  font-size: var(--footerTitel);
+  text-transform: capitalize;
+}
+
+.info__container--about {
+  height: 15.5rem;
+  margin-top: 10rem;
+}
+
+.footer__links--twitter {
+  background: url(../assets/images/twitter.svg) no-repeat;
+  display: block;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.footer__links--facebook {
+  background: url(../assets/images/facebook.svg) no-repeat;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+}
+.footer__links--instagram {
+  background: url(../assets/images/instagram.svg) no-repeat;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.footnote {
+  font-size: var(--inleiding);
+  width: 33rem;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  display: flex;
+  align-items: center;
+  margin-left: 50rem;
+}
+
+.footer__nav--item {
+  padding: 0 3.5rem;
+}
+
+
+@media only screen and (max-width: 834px) {
+  .container {
+    width: 90vw;
+  }
+  .tekst {
+    width: 43.7rem;
+  }
+
+  .about__grid {
+    top: -21.2rem;
+    margin-left: 60rem;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .about__beach {
+    top: -21.2rem;
+    z-index: -1;
+  }
+
+  .footer__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 13rem;
+  }
+}
+
+.afbeelding__maker {
+  margin: 3rem 0.2rem 0 0;
+}
+
+.about__fotos {
+  display: flex;
+}
+
+@media only screen and (max-width: 414px) {
+  .about__grid {
+    top: -21.2rem;
+    margin-left: 0rem;
+  }
+  .about__beach {
+    display: none;
+  }
+
+  .tekst {
+    width: 37.7rem;
+  }
+
+  .about__fotos {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.footer__nav {
+  margin-left: -10rem;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .about__grid {
+    display: none;
+  }
+
+  .about__beach {
+    display: none;
+  }
+}

@@ -10,9 +10,13 @@ $routes = array(
     'controller' => 'Materials',
     'action' => 'index'
   ),
-  'diy' => array(
+  'about' => array(
     'controller' => 'Materials',
-    'action' => 'diy'
+    'action' => 'about'
+  ),
+  'kits' => array(
+    'controller' => 'Materials',
+    'action' => 'kits'
   )
 
 );
@@ -23,6 +27,14 @@ if(empty($_GET['page'])) {
 if(empty($routes[$_GET['page']])) {
   header('Location: index.php');
   exit();
+}
+
+// basic .env file parsing
+if (file_exists("../.env")) {
+  $variables = parse_ini_file("../.env", true);
+  foreach ($variables as $key => $value) {
+    putenv("$key=$value");
+  }
 }
 
 $route = $routes[$_GET['page']];
