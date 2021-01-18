@@ -35,6 +35,18 @@
   color: var(--kleurRood);
 }
 
+@media only screen and (max-width: 1400px) {
+  .link__item {
+    margin: 8rem;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .link__item {
+    margin: 5rem;
+  }
+}
+
 @media only screen and (max-width: 834px) {
   .container {
     width: 100vw;
@@ -44,7 +56,7 @@
   }
 
   .link__item {
-    margin: 2rem;
+    margin: 1rem;
     padding: 3rem;
   }
 
@@ -53,12 +65,18 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 833px) {
+  
+  .link__item {
+    font-size: 1.5rem;
+  }
+}
 
+@media only screen and (max-width: 414px) {
   .container {
     width: 85vw;
   }
-  
+
   .link__item--home {
     display: none;
   }

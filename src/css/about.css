@@ -6,6 +6,7 @@
 
 .about__grid {
   top: -21.2rem;
+  right: 0;
   position: absolute;
   z-index: -1;
 }
@@ -102,6 +103,7 @@
 .footer__nav--item {
   padding: 0 3.5rem;
 }
+
 
 @media only screen and (max-width: 834px) {
   .container {

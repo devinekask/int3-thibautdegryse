@@ -1,13 +1,13 @@
 <div class="header">
    <picture>
-      <source class="about__grid" srcset="assets/grids/about-grid-1920.svg" media="(min-width: 1920px)">
-      <source class="about__grid" srcset="assets/grids/about-grid-834.svg" media="(min-width: 834px)">
-      <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(min-width: 414px)">
+      <source class="about__grid" srcset="assets/grids/about-grid-1920.svg" media="(max-width: 1920px)">
+      <source class="about__grid" srcset="assets/grids/about-grid-834.svg" media="(max-width: 834px)">
+      <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(max-width: 414px)">
       <img class="about__grid" src="assets/grids/about-grid-1920.svg" alt="about grid image">
    </picture>
    <picture>
-      <source class="about__beach" srcset="assets/images/about-beach-1920.svg" media="(min-width: 1920px)">
-      <source class="about__beach" srcset="assets/images/about-beach-834.svg" media="(min-width: 834px)">
+      <source class="about__beach" srcset="assets/images/about-beach-1920.svg" media="(max-width: 1920px)">
+      <source class="about__beach" srcset="assets/images/about-beach-834.svg" media="(max-width: 834px)">
       <img class="about__beach" src="assets/images/about-beach-1920.svg" alt="about beach image">
    </picture>
 </div>

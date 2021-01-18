@@ -2,21 +2,21 @@
 
 <div class="header">
    <picture>
-      <source class="header__grid" srcset="assets/grids/main-grid-1920.svg" media="(min-width: 1920px)">
+      <source class="header__grid" srcset="assets/grids/main-grid-1920.svg" media="(max-width: 1920px)">
       <source class="header__grid" srcset="assets/grids/main-grid-1792.svg" media="(max-width: 1792px)">
-      <source class="header__grid" srcset="assets/grids/main-grid-1440.svg" media="(min-width: 1440px)">
+      <source class="header__grid" srcset="assets/grids/main-grid-1440.svg" media="(max-width: 1440px)">
       <source class="header__grid" srcset="assets/grids/main-grid-834.svg" media="(max-width: 834px)">
-      <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(min-width: 414px)">
+      <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(max-width: 414px)">
       <source class="header__grid" srcset="assets/grids/main-grid-375.svg" media="(max-width: 375px)">
       <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="header grid image">
    </picture>
 </div>
 <div class="header">
    <picture>
-      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(min-width: 1920px)">
-      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(min-width: 1792px)">
-      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(min-width: 1440px)">
-      <source class="header__beach" srcset="assets/images/main-beach-834.svg" media="(min-width: 834px)">
+      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(max-width: 1920px)">
+      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(max-width: 1792px)">
+      <source class="header__beach" srcset="assets/images/main-beach-1920.svg" media="(max-width: 1440px)">
+      <source class="header__beach" srcset="assets/images/main-beach-834.svg" media="(max-width: 834px)">
       <img class="header__beach" src="assets/images/main-beach-1920.svg" alt="the beach with a cinema4d grid">
    </picture>
    <div class="container">
@@ -25,10 +25,10 @@
    </div>
    <div class="header">
       <picture>
-         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(min-width: 1920px)">
-         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(min-width: 1792px)">
-         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(min-width: 1440px)">
-         <source class="header__umbrella" srcset="assets/images/umbrella-834.png" media="(min-width: 834px)">
+         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(max-width: 1920px)">
+         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(max-width: 1792px)">
+         <source class="header__umbrella" srcset="assets/images/umbrella.png" media="(max-width: 1440px)">
+         <source class="header__umbrella" srcset="assets/images/umbrella-834.png" media="(max-width: 834px)">
          <img class="header__umbrella" src="assets/images/umbrella.png" alt="an umbrella on the beach">
       </picture>
    </div>
@@ -36,11 +36,11 @@
       <h1 class=header__titel> <span class="hidden">mini maker faire</span></h1>
       <div class="header">
          <picture>
-            <source class="hamer" srcset="assets/images/hammer1920.png" media="(min-width: 1920px)">
-            <source class="hamer" srcset="assets/images/hammer1920.png" media="(min-width: 1792px)">
-            <source class="hamer" srcset="assets/images/hammer1920.png" media="(min-width: 1440px)">
-            <source class="hamer" srcset="assets/images/hammer834.png" media="(min-width: 834px)">
-            <source class="hamer" srcset="assets/images/hammer375.png" media="(min-width: 375px)">
+            <source class="hamer" srcset="assets/images/hammer1920.png" media="(max-width: 1920px)">
+            <source class="hamer" srcset="assets/images/hammer1920.png" media="(max-width: 1792px)">
+            <source class="hamer" srcset="assets/images/hammer1920.png" media="(max-width: 1440px)">
+            <source class="hamer" srcset="assets/images/hammer834.png" media="(max-width: 834px)">
+            <source class="hamer" srcset="assets/images/hammer375.png" media="(max-width: 375px)">
             <img class="hamer" src="assets/images/hammer1920.png" alt="a hammer" />
          </picture>
       </div>

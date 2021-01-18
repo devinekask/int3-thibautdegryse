@@ -260,7 +260,6 @@
 
 @media only screen and (max-width: 1792px) {
   .volleyball__image {
-    position: relative;
     margin: -15rem -120rem -10rem 0;
   }
 
@@ -275,6 +274,12 @@
 
   .header__beach {
     right: 113rem;
+  }
+}
+
+@media only screen and (max-width: 1919px) {
+  .volleyball__image {
+    margin: -15rem -108rem -10rem 0;
   }
 }
 
@@ -294,6 +299,12 @@
 
   .header__umbrella {
     right: 100rem;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .volleyball__image {
+    display: none;
   }
 }
 
