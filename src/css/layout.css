@@ -13,7 +13,7 @@
   font-size: var(--paginaStandaard);
   align-items: center;
   margin: 1.8rem 0 auto;
-  position: relative;
+  position: static;
   z-index: 1;
 }
 
