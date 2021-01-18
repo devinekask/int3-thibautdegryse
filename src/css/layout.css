@@ -13,7 +13,7 @@
   font-size: var(--paginaStandaard);
   align-items: center;
   margin: 1.8rem 0 auto;
-  position: static;
+  position: relative;
   z-index: 1;
 }
 
@@ -49,7 +49,7 @@
 
 @media only screen and (max-width: 834px) {
   .container {
-    width: 100vw;
+    width: 85vw;
   }
   .navigation__list {
     margin: 1rem 0rem auto;
@@ -57,7 +57,7 @@
 
   .link__item {
     margin: 1rem;
-    padding: 3rem;
+    padding: 4rem;
   }
 
   .link__item--home {
@@ -65,19 +65,17 @@
   }
 }
 
-@media only screen and (max-width: 833px) {
-  
-  .link__item {
-    font-size: 1.5rem;
-  }
-}
-
 @media only screen and (max-width: 414px) {
-  .container {
-    width: 85vw;
-  }
-
   .link__item--home {
     display: none;
+  }
+
+  .navigation__list {
+    margin: 3rem 0rem auto;
+  }
+
+  .link__item {
+    margin: 2.4rem;
+    padding: 0rem;
   }
 }

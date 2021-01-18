@@ -17,6 +17,12 @@
   right: 0;
 }
 
+.header__beachball {
+  position: absolute;
+  top: 38.9rem;
+  right: 42px;
+}
+
 .titel {
   font-size: var(--titelTwee);
   margin-top: 7.7rem;
@@ -104,25 +110,28 @@
   padding: 0 3.5rem;
 }
 
+@media only screen and (max-width: 1440px) {
+  .header__beachball {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 834px) {
-  .container {
-    width: 90vw;
-  }
   .tekst {
     width: 43.7rem;
   }
 
   .about__grid {
     top: -21.2rem;
-    margin-left: 60rem;
+    margin-left: 0;
     position: absolute;
     z-index: -1;
   }
 
   .about__beach {
     top: -21.2rem;
-    z-index: -1;
+    width: 29.1rem;
+    height: 58.6rem;
   }
 
   .footer__nav {
@@ -130,19 +139,24 @@
     align-items: center;
     margin-left: 13rem;
   }
-}
 
-.afbeelding__maker {
-  margin: 3rem 0.2rem 0 0;
-}
+  .umbrella--2 {
+    top: 1rem;
+    right: 3rem;
+  }
 
-.about__fotos {
-  display: flex;
+  .afbeelding__maker {
+    margin: 3rem 0.2rem 0 0;
+  }
+
+  .about__fotos {
+    display: flex;
+  }
 }
 
 @media only screen and (max-width: 414px) {
   .about__grid {
-    top: -21.2rem;
+    top: -13.2rem;
     margin-left: 0rem;
   }
   .about__beach {
@@ -157,18 +171,24 @@
     display: flex;
     flex-direction: column;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .footer__nav {
+    margin-left: -10rem;
+    margin-top: 3rem;
+  }
+
+  .umbrella--2 {
+   display: none;
 }
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
 }
 
-.footer__nav {
-  margin-left: -10rem;
-  margin-top: 3rem;
-}
 
 @media only screen and (max-width: 375px) {
   .about__grid {

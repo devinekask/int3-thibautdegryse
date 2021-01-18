@@ -22,7 +22,7 @@
   position: absolute;
   z-index: -1;
 
-  animation-name: pulse;
+  animation-name: waves;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -37,7 +37,7 @@
   right: 140rem;
 }
 
-@-webkit-keyframes pulse {
+@-webkit-keyframes waves {
   0% {
     -webkit-transform: scale(1);
     opacity: 0.75;
@@ -186,26 +186,6 @@
   margin: -15rem -132rem -10rem 0;
 }
 
-.pentagon {
-  position: relative;
-  width: 5.4rem;
-  box-sizing: content-box;
-  border-width: 5rem 1.8rem 0;
-  border-style: solid;
-  border-color: var(--kleurWater) transparent;
-}
-.pentagon:before {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -8.5rem;
-  left: -1.8rem;
-  border-width: 0 4.5rem 3.5rem;
-  border-style: solid;
-  border-color: transparent transparent var(--kleurWater);
-}
-
 .info__container {
   background-color: var(--kleurBlauw);
   height: 50rem;
@@ -331,7 +311,7 @@
     position: absolute;
     top: -19rem;
     right: 45rem;
-    z-index: 0;
+    z-index: -1;
   }
 
   .header__umbrella {
@@ -341,6 +321,39 @@
 
   .volleyball__image {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .header__grid {
+    top: -11rem;
+  }
+
+  .hamer {
+    top: -11rem;
+    right: 0rem;
+  }
+
+  .subtitel {
+    font-size: 2.2rem;
+  }
+
+  .inleiding {
+    width: 33rem;
+  }
+
+  .buttons {
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    margin: 1.5rem;
+  }
+
+  .inleiding__section {
+    margin-top: 0rem;
   }
 }
 
