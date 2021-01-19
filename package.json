@@ -38,5 +38,9 @@
     "last 2 versions",
     "> 1%",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "lottie-web": "^5.7.6",
+    "webfontloader": "^1.6.28"
+  }
 }

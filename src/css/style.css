@@ -1,25 +1,29 @@
 @import url(reset.css);
 @import url(layout.css);
 @import url(vars.css);
-@import url(fonts.css);
-
-
 
 @import url(index.css);
 @import url(about.css);
 @import url(kits.css);
 @import url(form.css);
 
-
 html {
   font-size: 62.5%;
   background-color: var(--kleurWit);
-  
+
+  letter-spacing: -0.2px;
+
   box-sizing: border-box;
   height: 100%;
-  font-family: Helvetica, sans-serif;
+  font-family: Droid Sans, Droid Serif;
   color: #466c90;
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: Grotesk;
+  font-weight: normal;
+  line-height: 2.3rem;
 }
 /* stylelint-disable */
 *,
@@ -32,8 +36,13 @@ html {
   display: none;
 }
 
-.has-js {
-  display: none;
-}
 /* CONTENT */
 
+.container {
+  margin: 0 auto;
+}
+
+.wf-grotesk-n4-active body {
+  font-family: Grotesk;
+  letter-spacing: 0.9px;
+}

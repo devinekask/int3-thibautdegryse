@@ -1,14 +1,8 @@
 :root {
   /* fontsizes */
-  --titel: 6.2rem;
-  --titelTwee: 5.2rem;
-  --subTitel: 4.2rem;
-  --onderTitel: 3.2rem;
-  --footerTitel: 2.2rem;
-  --inleiding: 2rem;
+  --paginaTitel: 4.2rem;
+  --tekst: 2rem;
   --paginaStandaard: 1.9rem;
-  --materiaalOmschrijving: 1.6rem;
-  --paginaNote: 1.5rem;
 
   /* margins */
   --center: 0 auto;
@@ -20,6 +14,6 @@
   --kleurWater: #6d9fcf;
   --kleurWit: #fffffc;
   --kleurBlauw: #eff5f8;
-  --kleurZand: #fcf1dc;
+  --kleurZand: #fef1d9;
   --kleurSchaduw: #cae2e6;
 }

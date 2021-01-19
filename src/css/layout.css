@@ -1,24 +1,16 @@
 .container {
   max-width: 96rem;
-  margin: var(--center);
-}
-
-.content__container {
-    width: 95%;
-}
-
-.footer__kleur {
-  height: 3.3rem;
-  background-color: var(--kleurZand);
+  margin: 0 auto;
 }
 
 .navigation__list {
   display: flex;
-  font-size: var(--paginaStandaard);
   align-items: center;
-  margin: 1.8rem 0 auto;
-  position: relative;
-  z-index: 1;
+  justify-content: space-evenly;
+  margin-top: 4.5rem;
+  font-size: var(--paginaStandaard);
+  font-family: Grotesk;
+  font-weight: bold;
 }
 
 .link__item--home {
@@ -28,58 +20,66 @@
   height: 11.6rem;
 }
 
+.navigation__item--button {
+  background-color: var(--kleurRood);
+  color: var(--kleurWit);
+  padding: 1.5rem;
+  border-radius: 0.2rem;
+
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurDRood));
+}
+
+.navigation__item--button:hover {
+  background-color: var(--kleurDRood);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurRood));
+}
+
 .link__item {
+  padding: 4rem;
   text-decoration: none;
-  margin: 10rem;
-  text-transform: capitalize;
   color: var(--kleurDBlauw);
+  text-transform: capitalize;
 }
 
 .link__item:hover {
   color: var(--kleurRood);
 }
 
-@media only screen and (max-width: 1400px) {
+.footer {
+  background-color: var(--kleurZand);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 9rem;
+  padding: 2rem;
+}
+
+.container--sponsor {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 920px) {
   .link__item {
-    margin: 8rem;
+    padding: 0;
   }
 }
 
-@media only screen and (max-width: 1399px) {
-  .link__item {
-    margin: 5rem;
+@media only screen and (max-width: 919px) {
+  .navigation__item--button {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 834px) {
-  .container {
-    width: 85vw;
-  }
-  .navigation__list {
-    margin: 1rem 0rem auto;
-  }
-
-  .link__item {
-    margin: 1rem;
-    padding: 4rem;
-  }
-
-  .link__item--home {
-    margin-left: 0;
+  .navigation__item {
+    font-size: 2.1rem;
   }
 }
 
-@media only screen and (max-width: 414px) {
-  .link__item--home {
-    display: none;
-  }
-
-  .navigation__list {
-    margin: 3rem 0rem auto;
-  }
-
-  .link__item {
-    margin: 2.4rem;
-    padding: 0rem;
+@media only screen and (max-width: 754px) {
+  .navigation__item--button {
+    font-size: ;
   }
 }
