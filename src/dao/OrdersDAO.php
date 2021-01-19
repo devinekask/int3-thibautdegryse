@@ -16,7 +16,7 @@ class OrdersDAO extends DAO {
 
         $errors = $this->validate($data);
         if(empty($errors)){
-       $sql = "INSERT INTO `orders` (`naam`,`postcode` ,`straat`, `nr`, `bus`, `datum`, `telefoon`, `email`, `betaaloptie`) VALUES (:naam, :postcode, :straat, :nr, :bus, :datum, :telefoon, :email, :betaaloptie )";
+       $sql = "INSERT INTO `orders` (`naam`,`postcode` ,`straat`, `nr`, `bus`, `datum`, `telefoon`, `email`) VALUES (:naam, :postcode, :straat, :nr, :bus, :datum, :telefoon, :email )";
        $stmt = $this->pdo->prepare($sql);
        $stmt->bindValue(':naam', $data['naam']);
        $stmt->bindValue(':postcode', $data['postcode']);
