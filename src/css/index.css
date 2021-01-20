@@ -1,3 +1,8 @@
+.container--index {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 .header__grid {
   position: absolute;
   top: 0;
@@ -111,9 +116,14 @@
     background-image: url(../assets/logos/makerfaire834.svg);
     width: 40.5rem;
     height: 19.4rem;
+    margin-top: auto;
   }
   .eend {
     margin-top: -14rem;
+  }
+
+  .home__content--wrapper {
+    margin: 8rem auto;
   }
 }
 
@@ -130,4 +140,24 @@
     display: none;
   }
 
+  .buttons {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    margin: 2rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .strandstoel__section {
+    margin: 0;
+  }
+  .container--index {
+    max-width: 85%;
+    margin: 0 auto;
+  }
 }

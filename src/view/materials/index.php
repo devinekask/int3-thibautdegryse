@@ -10,6 +10,7 @@
         </picture>
 
     <div class="container">
+        <div class="container--index">
     <h1 class=header__titel> <span class="hidden">mini maker faire</span></h1>
 
     <section>
@@ -26,10 +27,12 @@
         </div>
         </div>
     </section>
+    </div>
 </div>
 
 <section class="waar--background"> 
         <div class="container">
+            <div class="container--index">
         <div class="waar--info">
 
         <picture>
@@ -49,12 +52,14 @@
         </div>
         </div>
     </div>
+    </div>
     </section>
 
     <img class="divider" src="assets/images/divider-1920.svg" alt="een pagina divider">
 
 
     <div class="container">
+        <div class="container--index">
     <section class="strandstoel__section">
         <h2 class="home__titel">de drijvende strandstoel</h2>
         <p class="home__tekst">
@@ -65,6 +70,7 @@
         <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
 
     </section>
+    </div>
     </div>
 
 
