@@ -3,10 +3,10 @@
         <picture>
             <source class="header__grid" srcset="assets/grids/main-grid-1920.svg" media="(min-width: 1920px)">
             <source class="header__grid" srcset="assets/grids/main-grid-834.svg" media="(max-width: 834px)">
-            <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(max-width: 414px)">
+
+
 
             <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="de header afbeelding van een hamer op een grid">
-
         </picture>
 
     <div class="container">
@@ -66,5 +66,7 @@
 
     </section>
     </div>
+
+
 
 </article>

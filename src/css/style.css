@@ -23,7 +23,7 @@ html {
 body {
   font-family: Grotesk;
   font-weight: normal;
-  line-height: 2.3rem;
+  line-height: 1.2;
 }
 /* stylelint-disable */
 *,
@@ -44,5 +44,4 @@ body {
 
 .wf-grotesk-n4-active body {
   font-family: Grotesk;
-  letter-spacing: 0.9px;
 }

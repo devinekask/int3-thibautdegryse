@@ -1,0 +1,61 @@
+.container--about {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.about__section {
+  margin-top: 3.7rem;
+}
+
+.henk__section {
+  display: flex;
+  align-items: center;
+}
+
+.about__titel {
+  font-size: 5.2rem;
+  color: var(--kleurRood);
+}
+
+.ondertitel {
+  color: var(--kleurRood);
+  font-size: 1.5rem;
+}
+
+.about__tekst {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.ondertitel::first-letter {
+  text-transform: capitalize;
+}
+
+.about__titel::first-letter {
+  text-transform: capitalize;
+}
+
+.about__subtitel {
+  font-size: 3.2rem;
+  color: var(--kleurRood);
+}
+
+.about__subtitel::first-letter {
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .henk__section {
+    flex-direction: column;
+  }
+
+  .henk {
+    margin: 3rem;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .henk {
+    margin: 0;
+  }
+}
