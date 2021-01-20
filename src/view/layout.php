@@ -16,8 +16,10 @@
          <nav>
             <div class="container">
                <ul class="navigation__list">
+                  <div class="home--home">
                   <li class="navigation__item"> <a class="link__item--home" href="index.php"> <span class="hidden">home</span> </a> </li>
-                  <li class="navigation__item"> <a class="link__item" href="index.php">home </a></li>
+                  <li class="navigation__item"> <a class="link__item link__item--text" href="index.php">home </a></li>
+                  </div>
                   <li class="navigation__item"> <a class="link__item" href="index.php?page=about">over ons</a></li>
                   <li class="navigation__item"> <a class="link__item" href="index.php?page=kits">bouw kits </a></li>
                   <li class="navigaton__item"><a class="link__item" href="index.php?page=tutorial"> <span class="navigation__item--button">probeer onze tutorial</span> </a></li>

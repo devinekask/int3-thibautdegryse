@@ -1,4 +1,4 @@
-require('../css/style.css');
+require("../css/style.css");
 
 // import WebFont from 'webfontloader';
 
@@ -11,3 +11,4 @@ require('../css/style.css');
 //     families: ['Droid Sans', 'Droid Serif'],
 //   },
 // });
+

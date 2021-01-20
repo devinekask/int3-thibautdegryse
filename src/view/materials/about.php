@@ -26,8 +26,9 @@
             </p>
             </div>
             <picture>
-                <source srcset="assets/images/henk-320.png" media="(max-width: 320px)">
+                <source srcset="assets/images/henk-320.png" media="(max-width: 395px)">
                 <source srcset="assets/images/henk-1920.png" media="(min-width: 321px)">
+
                 <img class="henk" src="assets/images/henk-1920.png" alt="henk rijckaert in een flamingo">
             </picture>
         </section>
@@ -49,4 +50,14 @@
         </section>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
 </article>
