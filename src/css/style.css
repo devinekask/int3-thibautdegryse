@@ -15,7 +15,7 @@ html {
 
   box-sizing: border-box;
   height: 100%;
-  font-family: Droid Sans, Droid Serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #466c90;
   scroll-behavior: smooth;
 }
