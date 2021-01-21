@@ -1,0 +1,121 @@
+.color__form {
+  background-color: var(--kleurBlauw);
+  margin-top: 1.7rem;
+}
+
+.container--form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.form__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem 5.5rem;
+  grid-template-areas:
+    "gegevens gegevens winkelmandje"
+    "betalen betalen .";
+}
+
+.form__gegevens {
+  grid-area: gegevens;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__titel {
+  font-size: 3.2rem;
+  color: var(--kleurRood);
+  margin-top: 5.3rem;
+
+  text-transform: capitalize;
+}
+
+.form__winkelmandje {
+  grid-area: winkelmandje;
+  display: flex;
+  flex-direction: column;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0.5rem;
+}
+
+.form__label {
+  margin: 1rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.form__input {
+  background: #fffffc;
+  box-shadow: 0 0.4rem 0.4rem rgba(219, 219, 219, 0.25);
+
+  border-radius: 0.8rem;
+  border: none;
+  height: 4.5rem;
+  padding: 1rem;
+
+  font-size: 1.6rem;
+
+  color: var(--kleurDBlauw);
+  margin-right: inherit;
+  max-width: 40rem;
+}
+
+.form__input--naam {
+  max-width: 23rem;
+}
+
+.form__input--nrbus {
+  max-width: 7.4rem;
+}
+
+.address__wrapper {
+  display: flex;
+}
+
+.winkelmandje__container {
+  background-color: var(--kleurWit);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.order__lijst {
+  max-width: 20rem;
+  margin: 2rem auto;
+  font-size: 1.9rem;
+
+  text-transform: capitalize;
+}
+
+.winkelmandje__lijst {
+  display: flex;
+  margin: 2rem 0 2rem 0;
+}
+
+.winkelmandje__prijs {
+  margin-left: 3rem;
+  font-weight: bold;
+  color: var(--kleurRood);
+}
+
+.button--verder {
+  font-size: 1.9rem;
+  margin-top: 2.5rem;
+  background-color: var(--kleurRood);
+  color: var(--kleurWit);
+  padding: 1.5rem;
+  border: none;
+  border-radius: 0.2rem;
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurDRood));
+}
+
+.button--verder:hover {
+  background-color: var(--kleurDRood);
+  filter: drop-shadow(0.4rem 0.3rem 0 var(--kleurRood));
+}
