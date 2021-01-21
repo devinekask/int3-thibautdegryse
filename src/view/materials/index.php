@@ -2,11 +2,16 @@
 
         <picture>
             <source class="header__grid" srcset="assets/grids/main-grid-1920.svg" media="(min-width: 1920px)">
+            <source class="header__grid" srcset="assets/grids/main-grid-414.svg" media="(max-width: 414px)">
+            <source class="header__grid" srcset="assets/grids/main-grid-320.svg" media="(max-width: 320px)">
             <source class="header__grid" srcset="assets/grids/main-grid-834.svg" media="(max-width: 834px)">
-
-
-
             <img class="header__grid" src="assets/grids/main-grid-1920.svg" alt="de header afbeelding van een hamer op een grid">
+        </picture>
+
+        <picture>
+            <source class="header__umbrella" srcset="assets/images/umbrella-1920.png" media="(min-width: 1920px)">
+            <source class="header__umbrella" srcset="assets/images/umbrella-1440.png" media="(max-width: 1440px)">
+            <img class="header__umbrella" src="assets/images/umbrella-1920.png" alt="de header afbeelding van een hamer op een grid">
         </picture>
 
     <div class="container">
@@ -62,7 +67,7 @@
         <div class="container--index">
     <section class="strandstoel__section">
         <h2 class="home__titel">de drijvende strandstoel</h2>
-        <p class="home__tekst">
+        <p class="home__tekst tekst--strandstoel">
         Zoals we hierboven zeiden pimpen wij onze drijfband en je vraagt je waarschijnlijk af hoe we dat doen... get ready... we plaatsen er een stuursysteem op en een strandstoel! 
         Met bekerhouder en alles! 
         Dit proces leggen we je graag uit in onze tutorial.

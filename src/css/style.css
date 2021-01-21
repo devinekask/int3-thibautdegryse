@@ -24,6 +24,7 @@ body {
   font-family: Grotesk;
   font-weight: normal;
   line-height: 1.2;
+  font-size: 2vw;
 }
 /* stylelint-disable */
 *,

@@ -10,6 +10,12 @@
   max-width: 100vw;
 }
 
+.header__umbrella {
+  position: absolute;
+
+  left: 6rem;
+  top: 28rem;
+}
 .header__titel {
   background-image: url(../assets/logos/makerfaire1920.svg);
   position: relative;
@@ -99,6 +105,22 @@
   margin-top: 4rem;
 }
 
+@media only screen and (max-width: 1919px) {
+  .header__umbrella {
+    position: absolute;
+    left: 6rem;
+    top: 26rem;
+  }
+}
+
+@media only screen and (max-width: 1660px) {
+  .header__umbrella {
+    position: absolute;
+    left: 0;
+    top: 20rem;
+  }
+}
+
 /* responsive 1440px */
 
 @media only screen and (max-width: 1440px) {
@@ -106,6 +128,12 @@
     background-image: url(../assets/logos/makerfaire1440.svg);
     width: 63.5rem;
     height: 30.3rem;
+  }
+
+  .header__umbrella {
+    position: absolute;
+    left: 3.5rem;
+    top: 20rem;
   }
 }
 
@@ -125,6 +153,10 @@
   .home__content--wrapper {
     margin: 8rem auto;
   }
+
+  .header__umbrella {
+    display: none;
+  }
 }
 
 /* responsive 414px */
@@ -135,6 +167,8 @@
 
     width: 28.7rem;
     height: 13.7rem;
+
+    margin-top: 2rem;
   }
   .eend {
     display: none;
@@ -150,6 +184,14 @@
     margin: 2rem;
     text-align: center;
   }
+
+  .strandstoel__section {
+    margin: 2rem 0;
+  }
+
+  .home__content--wrapper {
+    margin: 5rem auto;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -159,5 +201,29 @@
   .container--index {
     max-width: 85%;
     margin: 0 auto;
+  }
+
+  .header__titel {
+    margin-top: 3rem;
+  }
+
+  .home__content--wrapper {
+    margin: 0rem auto;
+  }
+
+  .home__tekst {
+    margin-bottom: 2rem;
+  }
+
+  .home__titel {
+    margin-top: revert;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .tekst--strandstoel {
+    margin-bottom: 6rem;
   }
 }
