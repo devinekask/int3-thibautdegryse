@@ -24,7 +24,7 @@
 <div class="address__wrapper">
     <div class="input__wrapper">
         <label class="form__label" for="straat">straat</label>
-        <input class="form__input" placeholder="Chinastraat" required type="text" id="straat" name="straat" value="<?php if(!empty($_POST['straat'])){ echo $_POST['straat'];} ?>">
+        <input class="form__input form__input--straat" placeholder="Chinastraat" required type="text" id="straat" name="straat" value="<?php if(!empty($_POST['straat'])){ echo $_POST['straat'];} ?>">
 </div>
         <div class="input__wrapper">
         <label class="form__label" for="nr">nr.</label>
@@ -53,6 +53,31 @@
     </section>
 
 
+    <section class="form__betalen">
+        <h2 class="form__titel">betalen</h2>
+
+        <div class="radio__wrapper">
+        <input class="radio__input" type="radio" id="betaaloptie1"
+            name="optie" value="bancontact">
+            <label class="form__label" for="betaaloptie1">bancontact<img class="payment__optie" src="assets/images/bancontact.png" alt=""></label>
+
+            </div>
+
+        <div class="radio__wrapper">
+            <input class="radio__input" type="radio" id="betaaloptie2"
+            name="optie" value="paypal">
+            <label class="form__label" for="betaaloptie2">paypal<img class="payment__optie" src="assets/images/paypal.png" alt=""></label>
+
+            </div>
+
+        <div class="radio__wrapper">            
+            <input class="radio__input" type="radio" id="betaaloptie3"
+            name="optie" value="mastercard">
+            <label class="form__label" for="betaaloptie3">mastercard<img class="payment__optie" src="assets/images/mastercard.png" alt=""></label>
+            </div>
+    </section>
+
+
 
         <section class="form__winkelmandje">
             <h2 class="form__titel">winkelmandje</h2>
@@ -70,6 +95,8 @@
             </div>
          <input class="button--verder" type="submit" value="Ik ga betalen">
         </section>
+        <input class="button--verder hidden--button" type="submit" value="Ik ga betalen">
+
 
 
         
