@@ -41,13 +41,12 @@
         <div class="waar--info">
 
 
-        <div class="eend" id="lottie-container"></div>
 
-        <!-- <picture>
+        <picture>
             <source class="eend" srcset="assets/images/duck-1920.png" media="(min-width: 1920px)">
             <source class="eend" srcset="assets/images/duck-834.png" media="(max-width: 834px)">
             <img class="eend" src="assets/images/duck-1920.png" alt="afbeelding van een eend met virussen en schroeven">
-        </picture> -->
+        </picture>
 
         <div class="wrapper--waar">
         <h2 class="home__titel">waar en wanneer?</h2>
@@ -75,7 +74,13 @@
         Met bekerhouder en alles! 
         Dit proces leggen we je graag uit in onze tutorial.
         </p>
+     
         <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
+
+        <picture>
+          <source srcset="assets/images/strandstoel-1920.png" media="(min-width: 1920px)">
+          <img class="strandstoel" src="assets/images/strandstoel-1920.png" alt="de drijvende strandstoel van de makerfaire">
+        </picture>
 
     </section>
     </div>

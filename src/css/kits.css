@@ -1,3 +1,92 @@
-.test {
-    
+.container--kits {
+  max-width: 90%;
+  margin: 4rem auto;
+}
+
+.intro__wrapper {
+  display: flex;
+}
+
+.kits__titel {
+  font-size: 5.5rem;
+  color: var(--kleurRood);
+  margin-bottom: 2rem;
+}
+
+.kits__titel::first-letter .kits__subtitel::first-letter {
+  text-transform: capitalize;
+}
+
+.kits__subtitel::first-letter {
+  text-transform: capitalize;
+}
+
+.kits__inleiding {
+  font-size: 2rem;
+  max-width: 50rem;
+}
+
+.flamingo {
+  position: absolute;
+  top: 26rem;
+  right: 13rem;
+  z-index: -1;
+}
+
+.buttons--kit {
+  margin: 9.3rem 0 18rem;
+}
+
+.kit__section {
+  margin-bottom: 15rem;
+  display: flex;
+}
+
+.kit__wrapper {
+  margin-bottom: 4rem;
+}
+
+.kits__subtitel {
+  font-size: 5.2rem;
+  color: var(--kleurRood);
+}
+
+.materiaal__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 0;
+
+  max-width: 46rem;
+}
+
+.kit__grid {
+  position: absolute;
+  z-index: -1;
+}
+
+.materiaal__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--kleurBlauw);
+  border-radius: 0.8rem;
+  margin: 1rem;
+  padding: 1.6rem;
+
+  box-shadow: 0.3rem 0.3rem 0 #d8ecff;
+}
+
+.materiaal__naam {
+  font-size: 2rem;
+}
+
+.materiaal__naam::first-letter {
+  text-transform: uppercase;
+}
+
+.prijs__wrapper {
+    display: flex;
+    align-items: center;
 }

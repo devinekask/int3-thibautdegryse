@@ -12,7 +12,7 @@
 }
 
 .link__item--home {
-  background: url(../assets/img/logo.png) no-repeat;
+  background: url(../assets/images/logo.png) no-repeat;
   display: block;
   width: 9.7rem;
   height: 11.6rem;
@@ -95,7 +95,7 @@
   }
 
   .link__item--home {
-    background: url(../assets/img/logo-414.png) no-repeat;
+    background: url(../assets/images/logo-414.png) no-repeat;
     display: block;
     width: 7.2rem;
     height: 9.2rem;

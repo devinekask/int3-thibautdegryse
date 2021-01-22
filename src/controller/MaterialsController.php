@@ -20,15 +20,17 @@ class MaterialsController extends Controller {
 
   public function about() {
 
-    $this->set('currentPage', 'Oover');
+    $this->set('currentPage', 'over');
     $this->set('title', 'Over');
 
   }
 
   public function kits() {
 
-    $materials = $this->materialsDAO->selectAllMaterials();
+    $makers = $this->materialsDAO->selectAllMakers();
+    $materials = $this->materialsDAO->selectAll();
 
+    $this->set('makers', $makers);
     $this->set('materials', $materials);
     $this->set('currentPage', 'bestel iets');
     $this->set('title', 'Bestel iets');

@@ -1,3 +1,7 @@
+
+
+
+
 <div class="color__form">
 <div class="container">
     <div class="container--form">
@@ -6,7 +10,10 @@
         <h1 class="hidden">bestellen</h1>
     
     <form class="form__grid" method="POST"  action="index.php?page=form">
-    <input type="hidden" name="action" value="insertOrder">
+    <input type="hidden" name="action" value="insertOrder"> 
+  
+
+
 
 <section class="form__gegevens">
     <h2 class="form__titel">gegevens</h2>
