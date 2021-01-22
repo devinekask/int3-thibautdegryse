@@ -40,11 +40,14 @@
             <div class="container--index">
         <div class="waar--info">
 
-        <picture>
+
+        <div class="eend" id="lottie-container"></div>
+
+        <!-- <picture>
             <source class="eend" srcset="assets/images/duck-1920.png" media="(min-width: 1920px)">
             <source class="eend" srcset="assets/images/duck-834.png" media="(max-width: 834px)">
             <img class="eend" src="assets/images/duck-1920.png" alt="afbeelding van een eend met virussen en schroeven">
-        </picture>
+        </picture> -->
 
         <div class="wrapper--waar">
         <h2 class="home__titel">waar en wanneer?</h2>

@@ -1,9 +1,22 @@
-# int3-thibautdegryse
-int3-thibautdegryse created by GitHub Classroom
+https://p5js.org/examples/simulate-particles.html
 
-Maker Faire
+```javascript
+import lottie from 'lottie-web'
 
-Beach faire
+lottie.loadAnimation({
+  container: document.body, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'assets/lottie/bump.json' // the path to the animation json
+});
+```
 
-Develop branch added
+```javascript
+externals: {
+  'lottie-web': 'joske'
+}
+```
+
+Font loading
 

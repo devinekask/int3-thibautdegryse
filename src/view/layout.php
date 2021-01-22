@@ -43,6 +43,9 @@
             <img src="assets/sponsors/velleman.png" width="150" height="64" alt="sponsor van de makerfaire">
          </div>
       </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
+  integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
+  crossorigin="anonymous"></script>
       <?php echo $js; ?>
    </body>
 </html>

@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+#lottie-container {
+  max-width: 50rem;
+}
+
 .header__grid {
   position: absolute;
   top: 0;
@@ -17,7 +21,7 @@
   top: 28rem;
 }
 .header__titel {
-  background-image: url(../assets/logos/makerfaire1920.svg);
+  background-image: url(../assets/img/makerfaire1920.svg);
   position: relative;
   width: 68.8rem;
   height: 33rem;
@@ -125,7 +129,7 @@
 
 @media only screen and (max-width: 1440px) {
   .header__titel {
-    background-image: url(../assets/logos/makerfaire1440.svg);
+    background-image: url(../assets/img/makerfaire1440.svg);
     width: 63.5rem;
     height: 30.3rem;
   }
@@ -141,7 +145,7 @@
 
 @media only screen and (max-width: 834px) {
   .header__titel {
-    background-image: url(../assets/logos/makerfaire834.svg);
+    background-image: url(../assets/img/makerfaire834.svg);
     width: 40.5rem;
     height: 19.4rem;
     margin-top: auto;
@@ -163,7 +167,7 @@
 
 @media only screen and (max-width: 414px) {
   .header__titel {
-    background-image: url(../assets/logos/makerfaire414.svg);
+    background-image: url(../assets/img/makerfaire414.svg);
 
     width: 28.7rem;
     height: 13.7rem;

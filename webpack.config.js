@@ -1,76 +1,78 @@
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const postcssPresetEnv = require("postcss-preset-env");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const webpack = require("webpack");
+/* eslint-disable object-curly-spacing */
+/* eslint-disable babel/object-curly-spacing */
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const postcssPresetEnv = require('postcss-preset-env');
+const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = (env, { mode }) => {
   console.log(mode);
   return {
     output: {
-      filename: "script.js",
+      filename: 'script.js',
+      publicPath: mode === 'production' ? '' : 'http://localhost:9000/'
     },
     devServer: {
       overlay: true,
       hot: true,
+      port: 9000,
+      disableHostCheck: true
     },
     module: {
       rules: [
         {
-          test: /\.js$/,
-          exclude: /node_modules/,
-          use: {
-            loader: "babel-loader",
-          },
-        },
-        {
           test: /\.(jpe?g|png|svg|webp)$/,
           use: {
-            loader: "url-loader",
+            loader: 'file-loader',
             options: {
-              limit: 1000,
-              context: "./src",
-              name: "[path][name].[ext]",
-            },
-          },
+              name: 'assets/img/[name].[ext]',
+              esModule: false,
+            }
+          }
         },
         {
           test: /\.(woff|woff2)$/,
           use: {
-            loader: "file-loader",
+            loader: 'file-loader',
             options: {
-              name: "assets/fonts/[name].[ext]",
+              name: 'assets/fonts/[name].[ext]',
               esModule: false,
-            },
-          },
+            }
+          }
         },
         {
           test: /\.css$/,
           use: [
-            mode === "production"
+            mode === 'production'
               ? MiniCssExtractPlugin.loader
-              : "style-loader",
-            "css-loader",
-            "resolve-url-loader",
+              : 'style-loader',
+            'css-loader',
+            'resolve-url-loader',
             {
-              loader: "postcss-loader",
+              loader: 'postcss-loader',
               options: {
                 sourceMap: true,
-                plugins: [
-                  require("postcss-import"),
-                  postcssPresetEnv({ stage: 0 }),
-                ],
-              },
-            },
-          ],
-        },
-      ],
+                postcssOptions: {
+                  plugins: [
+                    require('postcss-import'),
+                    postcssPresetEnv({ stage: 0 })
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: "style.css",
+        filename: 'style.css'
       }),
       new OptimizeCSSAssetsPlugin(),
-      new webpack.HotModuleReplacementPlugin(),
+      new webpack.HotModuleReplacementPlugin()
     ],
+    externals: {
+      'lottie-web': 'lottie'
+    }
   };
 };
