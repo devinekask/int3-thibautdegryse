@@ -86,7 +86,100 @@
   text-transform: uppercase;
 }
 
+.pakket__foto {
+}
+
 .prijs__wrapper {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.pakket__prijs {
+  font-size: 5.2rem;
+  color: var(--kleurRood);
+}
+
+.kit__image--wrapper {
+  right: 15rem;
+  position: absolute;
+}
+
+.wrapwrap {
+  display: flex;
+}
+
+@media only screen and (max-width: 1580px) {
+  .flamingo {
+    top: 30rem;
+    right: 9rem;
+  }
+
+  .kit__image--wrapper {
+    right: 1rem;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1490px) {
+  .flamingo {
+    top: 30rem;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .flamingo {
+    display: none;
+  }
+
+  .wrapwrap {
+    flex-direction: column;
+  }
+
+  .kit__image--wrapper {
+    position: relative;
+  }
+
+  .container--kits {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .container--kits {
+    max-width: 90%;
+  }
+  .kits__subtitel {
+    font-size: 4.2rem;
+  }
+  .kits__inleiding {
+    font-size: 2rem;
+    max-width: 35rem;
+  }
+
+  .materiaal__grid {
+    grid-template-columns: none;
+  }
+
+  .kit__grid {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .kits__titel {
+    font-size: 4.5rem;
+  }
+  .kits__inleiding {
+    max-width: 27rem;
+  }
+  .pakket__prijs {
+    font-size: 3.2rem;
+  }
+  .kits__subtitel {
+    font-size: 3.2rem;
+  }
+  .materiaal__wrapper {
+    max-width: 83vw;
+  }
 }
