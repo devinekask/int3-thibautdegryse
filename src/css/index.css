@@ -118,13 +118,22 @@
   -webkit-animation-timing-function: ease-in-out;
 }
 
-
 @-webkit-keyframes wiggle {
-  0% {-webkit-transform: rotate(5);}
-  25% {-webkit-transform: rotate(-5deg);}
-  50% {-webkit-transform: rotate(5deg);}
-  75% {-webkit-transform: rotate(-2deg);}
-  100% {-webkit-transform: rotate(0deg);}
+  0% {
+    -webkit-transform: rotate(5);
+  }
+  25% {
+    -webkit-transform: rotate(-5deg);
+  }
+  50% {
+    -webkit-transform: rotate(5deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
 @media only screen and (max-width: 1919px) {
@@ -157,6 +166,10 @@
     left: 3.5rem;
     top: 20rem;
   }
+
+  .strandstoel {
+    right: 8rem;
+  }
 }
 
 /* responsive 834px */
@@ -178,6 +191,11 @@
 
   .header__umbrella {
     display: none;
+  }
+
+  .strandstoel {
+    top: 107rem;
+    right: 0;
   }
 }
 
@@ -214,6 +232,11 @@
   .home__content--wrapper {
     margin: 5rem auto;
   }
+
+  .strandstoel {
+    top: 148rem;
+    z-index: -1;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -248,4 +271,8 @@
   .tekst--strandstoel {
     margin-bottom: 6rem;
   }
+
+  .strandstoel {
+    top: 178rem;
+}
 }

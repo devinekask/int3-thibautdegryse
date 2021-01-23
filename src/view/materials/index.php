@@ -66,6 +66,9 @@
             </p>
             <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
             <picture>
+               <source srcset="assets/images/strandstoel-320.png" media="(min-width: 320px)">
+               <source srcset="assets/images/strandstoel-414.png" media="(min-width: 414px)">
+               <source srcset="assets/images/strandstoel-834.png" media="(min-width: 834px)">
                <source srcset="assets/images/strandstoel-1920.png" media="(min-width: 1920px)">
                <img class="strandstoel" src="assets/images/strandstoel-1920.png" alt="de drijvende strandstoel van de makerfaire">
             </picture>

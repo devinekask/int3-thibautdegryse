@@ -1,23 +1,13 @@
-<svg width="414" height="101" viewBox="0 0 414 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="414" height="140" viewBox="0 0 414 140" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g opacity="0.4">
-<path d="M20.7001 0V101" stroke="#6D9FCF"/>
-<path d="M62.0997 0V101" stroke="#6D9FCF"/>
-<path d="M103.5 0V101" stroke="#6D9FCF"/>
-<path d="M144.9 0V101" stroke="#6D9FCF"/>
-<path d="M186.3 0V101" stroke="#6D9FCF"/>
-<path d="M227.7 0V101" stroke="#6D9FCF"/>
-<path d="M269.1 0V101" stroke="#6D9FCF"/>
-<path d="M310.5 0V101" stroke="#6D9FCF"/>
-<path d="M351.9 0V101" stroke="#6D9FCF"/>
-<path d="M393.3 0V101" stroke="#6D9FCF"/>
-<path d="M0 10.1001L414 10.1001" stroke="#6D9FCF"/>
-<path d="M0 20.2002L414 20.2002" stroke="#6D9FCF"/>
-<path d="M0 30.2998L414 30.2998" stroke="#6D9FCF"/>
-<path d="M0 40.3999L414 40.3999" stroke="#6D9FCF"/>
-<path d="M0 50.5L414 50.5" stroke="#6D9FCF"/>
-<path d="M0 60.6001L414 60.6001" stroke="#6D9FCF"/>
-<path d="M0 70.7002L414 70.7002" stroke="#6D9FCF"/>
-<path d="M0 80.7998L414 80.7998" stroke="#6D9FCF"/>
-<path d="M0 90.8999L414 90.8999" stroke="#6D9FCF"/>
+<path d="M62.0997 0V140" stroke="#6D9FCF"/>
+<path d="M144.9 0V140" stroke="#6D9FCF"/>
+<path d="M227.7 0V140" stroke="#6D9FCF"/>
+<path d="M310.5 0V140" stroke="#6D9FCF"/>
+<path d="M393.3 0V140" stroke="#6D9FCF"/>
+<path d="M0 28L414 28" stroke="#6D9FCF"/>
+<path d="M0 56L414 56" stroke="#6D9FCF"/>
+<path d="M0 84L414 84" stroke="#6D9FCF"/>
+<path d="M0 112L414 112" stroke="#6D9FCF"/>
 </g>
 </svg>
