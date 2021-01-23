@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="nl">
    <head>
@@ -10,15 +12,16 @@
       <?php echo $css;?>
    </head>
    <body>
-   <div style="display: flex; align-items: center; justify-content: space-between; background: black; color: white; position: fixed; top: 0; left: 0; width: 100%; padding: 0.5em; font-size: 12px; font-family: sans-serif;"><span>This is a fictional project, a student assignment for the Bachelor's degree <a href="https://devine.be" style="color: white;">Devine</a></span><button style="border: 0; padding: 0; background: black; color: white; margin: 0 0.5em; padding: 0 0.5em; cursor: pointer; font-size: 12px; " onclick="(function(btn){btn.parentNode.style.display='none'; localStorage.setItem('hide-devine-student-project-banner', '1'); return false;})(this);return false;">x</button><script>if (localStorage.getItem('hide-devine-student-project-banner') === '1') document.currentScript.parentNode.style.display = 'none';</script></div>
-
+      <div style="display: flex; align-items: center; justify-content: space-between; background: black; color: white; position: fixed; top: 0; left: 0; width: 100%; padding: 0.5em; font-size: 12px; font-family: sans-serif;">
+         <span>This is a fictional project, a student assignment for the Bachelor's degree <a href="https://devine.be" style="color: white;">Devine</a></span><button style="border: 0; padding: 0; background: black; color: white; margin: 0 0.5em; padding: 0 0.5em; cursor: pointer; font-size: 12px; " onclick="(function(btn){btn.parentNode.style.display='none'; localStorage.setItem('hide-devine-student-project-banner', '1'); return false;})(this);return false;">x</button><script>if (localStorage.getItem('hide-devine-student-project-banner') === '1') document.currentScript.parentNode.style.display = 'none';</script>
+      </div>
       <header>
          <nav>
             <div class="container">
                <ul class="navigation__list">
                   <div class="home--home">
-                  <li class="navigation__item"> <a class="link__item--home" href="index.php"> <span class="hidden">home</span> </a> </li>
-                  <li class="navigation__item"> <a class="link__item link__item--text" href="index.php">home </a></li>
+                     <li class="navigation__item"> <a class="link__item--home" href="index.php"> <span class="hidden">home</span> </a> </li>
+                     <li class="navigation__item"> <a class="link__item link__item--text" href="index.php">home </a></li>
                   </div>
                   <li class="navigation__item"> <a class="link__item" href="index.php?page=about">over ons</a></li>
                   <li class="navigation__item"> <a class="link__item" href="index.php?page=kits">bouw kits </a></li>
@@ -27,11 +30,9 @@
             </div>
          </nav>
       </header>
-
       <main class="content">
          <?php echo $content;?>
       </main>
-
       <!-- <footer class="footer">
          <div class="container container--sponsor">
             <img src="assets/sponsors/accent.png" width="150" height="65" alt="sponsor van de makerfaire">
@@ -42,10 +43,11 @@
             <img src="assets/sponsors/uni.png" width="150" height="65" alt="sponsor van de makerfaire">
             <img src="assets/sponsors/velleman.png" width="150" height="64" alt="sponsor van de makerfaire">
          </div>
-      </footer> -->
+         </footer> -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
-  integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
-  crossorigin="anonymous"></script>
+         integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
+         crossorigin="anonymous"></script>
       <?php echo $js; ?>
    </body>
 </html>
+
