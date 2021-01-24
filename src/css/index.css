@@ -15,13 +15,58 @@
 
   left: 6rem;
   top: 28rem;
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 60000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
 .header__titel {
   background-image: url(../assets/images/makerfaire1920.svg);
   position: relative;
   width: 68.8rem;
   height: 33rem;
   margin: 6rem auto;
+}
+
+.polygon {
+  background-image: url(../assets/images/polygon-1920.svg);
+  width: 52.9rem;
+  height: 52.7rem;
+
+  position: absolute;
+  z-index: -2;
+  top: 29rem;
+  left: -15rem;
+
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 20000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+.polygon--two {
+  background-image: url(http://localhost:9000/assets/img/polygon-1920.svg);
+  width: 52.9rem;
+  height: 52.7rem;
+  position: absolute;
+  z-index: -2;
+  top: 18rem;
+  left: 14rem;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 20000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
 .home__content--wrapper {
@@ -98,7 +143,7 @@
 }
 
 .strandstoel__section {
-  margin: 6rem;
+  margin-bottom: 26rem;
 }
 
 .button--tut-twee {
@@ -109,31 +154,39 @@
   position: absolute;
   top: 130rem;
   right: 18rem;
+  z-index: -1;
 }
 
-.strandstoel:hover {
-  -webkit-animation-name: wiggle;
-  -webkit-animation-duration: 1000ms;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease-in-out;
+.color__index {
+  background-color: var(--kleurBlauw);
+  margin-top: 10rem;
 }
 
-@-webkit-keyframes wiggle {
-  0% {
-    -webkit-transform: rotate(5);
-  }
-  25% {
-    -webkit-transform: rotate(-5deg);
-  }
-  50% {
-    -webkit-transform: rotate(5deg);
-  }
-  75% {
-    -webkit-transform: rotate(-2deg);
-  }
-  100% {
-    -webkit-transform: rotate(0deg);
-  }
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.sponsors {
+  margin-left: 20rem;
+  padding: 2rem;
+}
+
+.sponsor:hover {
+  cursor: pointer;
+}
+
+.footer__h1 {
+  font-size: 2.2rem;
+  color: var(--kleurRood);
+}
+
+.footer__h1::first-letter {
+  text-transform: capitalize;
+}
+
+.footer__text {
+  font-size: 2rem;
 }
 
 @media only screen and (max-width: 1919px) {
@@ -144,6 +197,27 @@
   }
 }
 
+@media only screen and (max-width: 1800px) {
+  .polygon {
+    top: 26rem;
+  }
+
+  .polygon--two {
+    top: 17rem;
+    left: 10rem;
+  }
+}
+@media only screen and (max-width: 1680px) {
+  .polygon {
+    top: 21rem;
+  }
+
+  .polygon--two {
+    top: 14rem;
+    left: 5rem;
+  }
+}
+
 @media only screen and (max-width: 1660px) {
   .header__umbrella {
     position: absolute;
@@ -151,6 +225,14 @@
     top: 20rem;
   }
 }
+
+@media only screen and (max-width: 1600px) {
+  .polygon {
+    display: none;
+  }
+
+}
+
 
 /* responsive 1440px */
 
@@ -169,6 +251,16 @@
 
   .strandstoel {
     right: 8rem;
+  }
+}
+
+@media only screen and (max-width: 947px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+
+  .sponsors {
+    margin-left: 0;
   }
 }
 
@@ -234,8 +326,15 @@
   }
 
   .strandstoel {
-    top: 148rem;
-    z-index: -1;
+    display: none;
+  }
+
+  .polygon {
+    display: none;
+  }
+
+  .polygon--two {
+    display: none;
   }
 }
 
@@ -274,5 +373,5 @@
 
   .strandstoel {
     top: 178rem;
-}
+  }
 }

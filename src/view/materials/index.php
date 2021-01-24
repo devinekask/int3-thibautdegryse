@@ -13,6 +13,9 @@
       <source class="header__umbrella" srcset="assets/images/umbrella-1440.png" media="(max-width: 1440px)">
       <img class="header__umbrella" src="assets/images/umbrella-1920.png" alt="de header afbeelding van een hamer op een grid">
    </picture>
+   <div class="polygon"></div>
+      <div class="polygon polygon--two"></div>
+
    <div class="container">
       <div class="container--index">
          <h1 class=header__titel> <span class="hidden">mini maker faire</span></h1>
@@ -66,14 +69,34 @@
             </p>
             <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
             <picture>
-               <source srcset="assets/images/strandstoel-320.png" media="(min-width: 320px)">
-               <source srcset="assets/images/strandstoel-414.png" media="(min-width: 414px)">
-               <source srcset="assets/images/strandstoel-834.png" media="(min-width: 834px)">
-               <source srcset="assets/images/strandstoel-1920.png" media="(min-width: 1920px)">
+               <source srcset="assets/images/strandstoel-320.png" media="(max-width: 320px)">
+               <source srcset="assets/images/strandstoel-414.png" media="(max-width: 414px)">
+               <source srcset="assets/images/strandstoel-834.png" media="(max-width: 834px)">
+               <!-- <source srcset="assets/images/strandstoel-1920.png" media="(max-width: 1920px)"> -->
                <img class="strandstoel" src="assets/images/strandstoel-1920.png" alt="de drijvende strandstoel van de makerfaire">
             </picture>
          </section>
       </div>
    </div>
 </article>
+
+<div class="color__index">
+<article>
+   <div class="container">
+      <div class="container--index">
+      <div class="footer__wrapper">
+         <div class="footer__title">
+   <h1 class="footer__h1">sociale media</h1>
+   <p class="footer__text">volg ons ook op sociale media om up to date te blijven!</p>
+   </div>
+   <div class="sponsors">
+   <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fmakerfairegent"><img class="sponsor" src="assets/images/facebook.svg" alt="the facebook icon"></a>
+   <a href="https://twitter.com/makerfairegent"><img class="sponsor" src="assets/images/twitter.svg" alt="the twitter icon"></a>
+   <a href="https://www.instagram.com/makerfairegent/"><img class="sponsor" src="assets/images/instagram.svg" alt="the instagram icon"></a>
+   </div>
+   </div>
+   </div>
+   </div>
+</article>
+</div>
 

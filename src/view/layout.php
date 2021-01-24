@@ -33,17 +33,9 @@
       <main class="content">
          <?php echo $content;?>
       </main>
-      <!-- <footer class="footer">
-         <div class="container container--sponsor">
-            <img src="assets/sponsors/accent.png" width="150" height="65" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/flanders.png" width="150" height="65" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/gent.png" width="150" height="96" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/make.png" width="150" height="75" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/tentzetter.png" width="150" height="52" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/uni.png" width="150" height="65" alt="sponsor van de makerfaire">
-            <img src="assets/sponsors/velleman.png" width="150" height="64" alt="sponsor van de makerfaire">
-         </div>
-         </footer> -->
+      <footer class="footer">
+         <p>Thibaut Degryse - 2021 Integration 3 - Mini Maker Faire</p>
+         </footer>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
          integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
          crossorigin="anonymous"></script>
