@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  font-family: testfont;
+  font-family: grotesk;
   font-weight: normal;
   line-height: 1.2;
 }
@@ -40,6 +40,6 @@ body {
   margin: 0 auto;
 }
 
-.wf-testfont-n4-active body {
-  font-family: testfont;
+.wf-grotesk-n4-active body {
+  font-family: grotesk;
 }

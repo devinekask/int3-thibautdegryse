@@ -5,7 +5,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
   custom: {
-    families: ['testfont'],
+    families: ['grotesk'],
     urls: ['assets/fonts.css'],
   },
   google: {
