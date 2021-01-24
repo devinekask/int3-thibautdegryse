@@ -1,5 +1,3 @@
-
-
 <div class="color__form">
    <div class="container">
       <div class="container--form">
@@ -67,12 +65,12 @@
                   <div class="winkelmandje__container">
                      <dl class="order__lijst">
                         <div class="winkelmandje__lijst">
-                           <dt>drijfband</dt>
-                           <dd class="winkelmandje__prijs">€12</dd>
+                           <dt>MP</dt>
+                           <dd class="winkelmandje__prijs">€35</dd>
                         </div>
                         <div class="winkelmandje__lijst">
-                           <dt>drijfband</dt>
-                           <dd class="winkelmandje__prijs">€12</dd>
+                           <dt>BP</dt>
+                           <dd class="winkelmandje__prijs">€85</dd>
                         </div>
                      </dl>
                   </div>
