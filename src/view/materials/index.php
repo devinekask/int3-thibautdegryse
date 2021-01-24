@@ -60,9 +60,9 @@
          <section class="strandstoel__section">
             <h2 class="home__titel">de drijvende strandstoel</h2>
             <p class="home__tekst tekst--strandstoel">
-               Zoals we hierboven zeiden pimpen wij onze drijfband en je vraagt je waarschijnlijk af hoe we dat doen... get ready... we plaatsen er een stuursysteem op en een strandstoel! 
-               Met bekerhouder en alles! 
-               Dit proces leggen we je graag uit in onze tutorial.
+             Wil jij net zoals ons jouw eigen strandstoel ook helemaal pimpen?
+             Dat kan! Je kan hier onze tutorial volgen om zo een compleet persoonlijke drijvende strandstoel te maken!
+             Die gaat pas alle aandacht stelen aan het strand.
             </p>
             <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
             <picture>

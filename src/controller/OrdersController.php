@@ -55,8 +55,8 @@ class OrdersController extends Controller {
 
 
 
-    $this->set('currentPage', 'waar kijk jij naar?');
-    $this->set('title', 'Waar kijk jij naar?');
+    $this->set('currentPage', 'order');
+    $this->set('title', 'Bestel nu bij ons <3');
 
   }
 

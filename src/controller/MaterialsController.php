@@ -13,15 +13,15 @@ class MaterialsController extends Controller {
   }
    public function index() {
 
-    $this->set('currentPage', 'huis');
-    $this->set('title', 'Huis');
+    $this->set('currentPage', 'home');
+    $this->set('title', 'Maker Faire');
 
   }
 
   public function about() {
 
     $this->set('currentPage', 'over');
-    $this->set('title', 'Over');
+    $this->set('title', 'Over ons');
 
   }
 
@@ -32,8 +32,8 @@ class MaterialsController extends Controller {
 
     $this->set('makers', $makers);
     $this->set('materials', $materials);
-    $this->set('currentPage', 'bestel iets');
-    $this->set('title', 'Bestel iets');
+    $this->set('currentPage', 'shop');
+    $this->set('title', 'Bestel nu bij ons <3');
 
   }
 }
