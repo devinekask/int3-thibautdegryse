@@ -43,7 +43,7 @@
   text-decoration: none;
   color: var(--kleurDBlauw);
   text-transform: capitalize;
-  font-size: 1.9rem;
+  font-size: var(--paginaStandaard);
 }
 
 .link__item:hover {
@@ -60,7 +60,7 @@
   text-align: center;
   height: 4rem;
   color: var(--kleurDBlauw);
-  font-size: 1.5rem;
+  font-size: var(--paginaKleineTekst);
   display: flex;
   align-items: center;
   justify-content: center;

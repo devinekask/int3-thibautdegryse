@@ -8,7 +8,7 @@
 }
 
 .kits__titel {
-  font-size: 5.5rem;
+  font-size: var(--titelEnorm);
   color: var(--kleurRood);
   margin-bottom: 2rem;
 }
@@ -22,7 +22,7 @@
 }
 
 .kits__inleiding {
-  font-size: 2rem;
+  font-size: var(--paginaTekst);
   max-width: 50rem;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .kits__subtitel {
-  font-size: 5.2rem;
+  font-size: var(--grootsteTitels);
   color: var(--kleurRood);
 }
 
@@ -79,7 +79,7 @@
 }
 
 .materiaal__naam {
-  font-size: 2rem;
+  font-size: var(--paginaTekst);
 }
 
 .materiaal__naam::first-letter {
@@ -95,7 +95,7 @@
 }
 
 .pakket__prijs {
-  font-size: 5.2rem;
+  font-size: var(--grootsteTitels);
   color: var(--kleurRood);
 }
 
@@ -150,10 +150,10 @@
     max-width: 90%;
   }
   .kits__subtitel {
-    font-size: 4.2rem;
+    font-size: var(--groteTitels);
   }
   .kits__inleiding {
-    font-size: 2rem;
+    font-size: var(--paginaTekst);
     max-width: 35rem;
   }
 
@@ -174,10 +174,10 @@
     max-width: 27rem;
   }
   .pakket__prijs {
-    font-size: 3.2rem;
+    font-size: var(--titels);
   }
   .kits__subtitel {
-    font-size: 3.2rem;
+    font-size: var(--titels);
   }
   .materiaal__wrapper {
     max-width: 83vw;

@@ -75,7 +75,7 @@
 }
 
 .home__titel {
-  font-size: var(--paginaTitel);
+  font-size: var(--groteTitels);
   color: var(--kleurRood);
   font-weight: bold;
 }
@@ -86,7 +86,7 @@
 
 .home__tekst {
   margin-top: 2rem;
-  font-size: var(--tekst);
+  font-size: var(--paginaTekst);
   max-width: 57rem;
   margin-bottom: 5rem;
 }
@@ -177,7 +177,7 @@
 }
 
 .footer__h1 {
-  font-size: 2.2rem;
+  font-size: var(--paginaTekstGroot);
   color: var(--kleurRood);
 }
 
@@ -186,7 +186,7 @@
 }
 
 .footer__text {
-  font-size: 2rem;
+  font-size: var(--paginaTekst);
 }
 
 @media only screen and (max-width: 1919px) {
@@ -230,9 +230,7 @@
   .polygon {
     display: none;
   }
-
 }
-
 
 /* responsive 1440px */
 

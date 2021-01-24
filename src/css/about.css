@@ -22,7 +22,7 @@
 }
 
 .about__titel {
-  font-size: 5.2rem;
+  font-size: var(--grootsteTitels);
   color: var(--kleurRood);
 }
 
@@ -32,11 +32,11 @@
 
 .ondertitel {
   color: var(--kleurRood);
-  font-size: 1.5rem;
+  font-size: var(--paginaKleineTekst);
 }
 
 .about__tekst {
-  font-size: 2rem;
+  font-size: var(--paginaTekst);
   margin-top: 1rem;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .about__subtitel {
-  font-size: 3.2rem;
+  font-size: var(--titels);
   color: var(--kleurRood);
 }
 
@@ -114,7 +114,6 @@
   .henk {
     margin-top: -38rem;
   }
-
 }
 
 @media only screen and (max-width: 320px) {

@@ -49,7 +49,7 @@
 }
 
 .form__titel {
-  font-size: 3.2rem;
+  font-size: var(--titels);
   color: var(--kleurRood);
   margin-top: 5.3rem;
 
@@ -75,7 +75,7 @@
 
 .form__label {
   margin: 1rem;
-  font-size: 1.6rem;
+  font-size: var(--form);
   text-transform: capitalize;
 }
 .form__input {
@@ -87,7 +87,7 @@
   height: 4.5rem;
   padding: 1rem;
 
-  font-size: 1.6rem;
+  font-size: var(--form);
 
   color: var(--kleurDBlauw);
   margin-right: inherit;
@@ -116,7 +116,7 @@
 .order__lijst {
   max-width: 20rem;
   margin: 2rem auto;
-  font-size: 1.9rem;
+  font-size: var(--paginaStandaard);
 
   text-transform: capitalize;
 }
@@ -133,7 +133,7 @@
 }
 
 .button--verder {
-  font-size: 1.9rem;
+  font-size: var(--paginaStandaard);
   margin-top: 2.5rem;
   background-color: var(--kleurRood);
   color: var(--kleurWit);

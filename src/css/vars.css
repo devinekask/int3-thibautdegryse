@@ -1,11 +1,14 @@
 :root {
   /* fontsizes */
-  --paginaTitel: 4.2rem;
-  --tekst: 2rem;
+  --titelEnorm: 5.5rem;
+  --grootsteTitels: 5.2rem;
+  --groteTitels: 4.2rem;
+  --titels: 3.2rem;
+  --paginaTekstGroot: 2.2rem;
+  --paginaTekst: 2rem;
   --paginaStandaard: 1.9rem;
-
-  /* margins */
-  --center: 0 auto;
+  --form: 1.6rem;
+  --paginaKleineTekst: 1.5rem;
 
   /* colours */
   --kleurRood: #ef695d;
