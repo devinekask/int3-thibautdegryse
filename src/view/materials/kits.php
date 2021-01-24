@@ -12,7 +12,7 @@
                      Allemaal tot bij jou thuis geleverd zodat je niet hoeft te sukkelen met onbruikbare onderdelen.
                   </p>
                </div>
-               <img class="flamingo" src="assets/images/flamingopakket-1920.png" alt="een flamingo met een volledig makerspakket" width="616" height="426">
+               <img class="flamingo" src="assets/images/flamingopakket-1920.webp" alt="een flamingo met een volledig makerspakket" width="616" height="426">
             </div>
             <div class="buttons--kit">
                <a class="button button--tut" href="index.php?page=tutorial">probeer onze tutorial</a>
@@ -33,9 +33,9 @@
                      </div>
                      <div class="kit__image--wrapper">
                         <picture>
-                           <source srcset="assets/images/makerpakket-320.png" media="(max-width: 320px)">
-                           <source srcset="assets/images/makerpakket-414.png" media="(max-width: 414px)">
-                           <img class="pakket__foto" src="assets/images/makerpakket-1920.png" alt="veel dozen naast een strandstoel">
+                           <source srcset="assets/images/makerpakket-320.webp" media="(max-width: 320px)">
+                           <source srcset="assets/images/makerpakket-414.webp" media="(max-width: 414px)">
+                           <img class="pakket__foto" src="assets/images/makerpakket-1920.webp" alt="veel dozen naast een strandstoel">
                         </picture>
                         <div class="prijs__wrapper">
                            <a class=" button button--meer" href="index.php?page=form">makerpakket kopen</a>
@@ -68,9 +68,9 @@
                      </div>
                      <div class="kit__image--wrapper">
                         <picture>
-                           <source srcset="assets/images/beginnerpakket-320.png" media="(max-width: 320px)">
-                           <source srcset="assets/images/beginnerpakket-414.png" media="(max-width: 414px)">
-                           <img class="pakket__foto" src="assets/images/beginnerpakket-1920.png" alt="veel dozen naast een strandstoel">
+                           <source srcset="assets/images/beginnerpakket-320.webp" media="(max-width: 320px)">
+                           <source srcset="assets/images/beginnerpakket-414.webp" media="(max-width: 414px)">
+                           <img class="pakket__foto" src="assets/images/beginnerpakket-1920.webp" alt="veel dozen naast een strandstoel">
                         </picture>
                         <div class="prijs__wrapper">
                            <a class=" button button--meer" href="index.php?page=form">beginner pakket kopen</a>

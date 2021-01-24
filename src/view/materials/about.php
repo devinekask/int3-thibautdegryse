@@ -26,7 +26,7 @@
                   Een grote droom van hem die werkelijkheid werd in 2019.
                </p>
             </div>
-            <img class="henk" src="assets/images/henkrijckaert.png" width="410" height="728" alt="henk rijckaert in een strandstoel met een vlieger">
+            <img class="henk" src="assets/images/henkrijckaert.webp" width="410" height="728" alt="henk rijckaert in een strandstoel met een vlieger">
          </section>
          <section class="about__section">
             <h2 class="about__subtitel">editie 2021</h2>
@@ -39,8 +39,8 @@
          </section>
          <section class="about__section lieven__section">
             <picture>
-               <source srcset="assets/images/lieven-414.png" media="(max-width: 414px)">
-               <img class="lieven" src="assets/images/lieven.png" width="351" height="365" alt="lieven scheire die een strandbal gooit">
+               <source srcset="assets/images/lieven-414.webp" media="(max-width: 414px)">
+               <img class="lieven" src="assets/images/lieven.webp" width="351" height="365" alt="lieven scheire die een strandbal gooit">
             </picture>
             <div class="about__wrapper">
                <h2 class="about__subtitel">editie 2019 (de vorige dus)</h2>
