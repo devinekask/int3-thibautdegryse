@@ -42,19 +42,6 @@ class OrdersController extends Controller {
               }
             }
            }
-
-
-           
-
-
-
-
-
-
-
-
-
-
     $this->set('currentPage', 'order');
     $this->set('title', 'Bestel nu bij ons <3');
 

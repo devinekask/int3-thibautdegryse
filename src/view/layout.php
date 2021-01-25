@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="nl">
    <head>
@@ -39,6 +37,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"
          integrity="sha512-BB7rb8ZBAxtdJdB7nwDijJH9NC+648xSzviK9Itm+5APTtdpgKz1+82bDl4znz/FBhd0R7pJ/gQtomnMpZYzRw=="
          crossorigin="anonymous"></script>
+
       <?php echo $js; ?>
    </body>
 </html>

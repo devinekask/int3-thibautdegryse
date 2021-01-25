@@ -15,8 +15,16 @@
 
                   </div>
                   <div class="input__wrapper">
-                     <label class="form__label" for="postcode">postcode</label>
-                     <input class="input form__input" placeholder="postcode" required type="text" id="postcode" name="postcode" value="<?php if(!empty($_POST['postcode'])){ echo $_POST['postcode'];} ?>">
+
+
+<label class="form__label" for="email">email</label>
+<input class="input form__input" placeholder="mark.maker@faire.be" required type="email" id="email" name="email" value="<?php if(!empty($_POST['email'])){ echo $_POST['email'];} ?>">
+<span class="error"><?php if(!empty($errors['email'])){ echo $errors['email'];} ?></span>
+
+</div>
+                  <div class="input__wrapper">
+                     <label class="form__label" for="postcode">postcode / gemeente</label>
+                     <input class="input form__input" placeholder="postcode / gemeente" required type="text" id="postcode" name="postcode" value="<?php if(!empty($_POST['postcode'])){ echo $_POST['postcode'];} ?>">
                      <span class="error"><?php if(!empty($errors['postcode'])){ echo $errors['postcode'];} ?></span>
 
                   </div>
@@ -29,7 +37,7 @@
                      </div>
                      <div class="input__wrapper">
                         <label class="form__label" for="nr">nr.</label>
-                        <input class="input form__input form__input--nrbus" placeholder="2" required type="text" id="nr" name="nr" value="<?php if(!empty($_POST['nr'])){ echo $_POST['nr'];} ?>">
+                        <input class="input form__input form__input--nrbus" placeholder="2" required type="number" id="nr" name="nr" value="<?php if(!empty($_POST['nr'])){ echo $_POST['nr'];} ?>">
                         <span class="error"><?php if(!empty($errors['nr'])){ echo $errors['nr'];} ?></span>
 
                      </div>
@@ -51,14 +59,7 @@
                      <span class="error"><?php if(!empty($errors['telefoon'])){ echo $errors['telefoon'];} ?></span>
 
                   </div>
-                  <div class="input__wrapper">
 
-
-                     <label class="form__label" for="email">email</label>
-                     <input class="input form__input" placeholder="mark.maker@faire.be" required type="email" id="email" name="email" value="<?php if(!empty($_POST['email'])){ echo $_POST['email'];} ?>">
-                     <span class="error"><?php if(!empty($errors['email'])){ echo $errors['email'];} ?></span>
-
-                  </div>
                </section>
                <section class="form__betalen">
                   <h2 class="form__titel">betalen</h2>
@@ -100,4 +101,3 @@
       </div>
    </div>
 </div>
-

@@ -1,5 +1,3 @@
-require('../css/style.css');
-
 import WebFont from 'webfontloader';
 
 WebFont.load({
@@ -132,5 +130,4 @@ const sectionLoader = () => {
     }
   });
 };
-
 sectionLoader();
