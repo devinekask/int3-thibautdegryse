@@ -5,7 +5,7 @@
       <article>
          <h1 class="hidden">De drijvende strandstoel tutorial</h1>
          <div class="button__wrapper">
-            <button class="button button--meer button__previous" href="">vorige stap</button>
+            <button class="hidden button button--meer button__previous" href="">vorige stap</button>
             <button class="button button--tut button__next">volgende stap</button>
             <a class="hidden button__end" href="index.php" class="hidden button__end">terug naar de homepage</a>
          </div>

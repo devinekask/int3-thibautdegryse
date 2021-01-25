@@ -19,7 +19,7 @@
 }
 
 .tutorial__grid {
-  margin: 0 0 10rem -11rem;
+  margin: 0 0 15rem -11rem;
 }
 
 .titel__tutorial {
@@ -39,5 +39,40 @@
   position: absolute;
   top: 56rem;
   right: 50rem;
-  left: 76rem;
+}
+
+@media only screen and (max-width: 1440px) {
+  .materiaal--lijst__wrapper {
+    right: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1016px) {
+  .materiaal--lijst__wrapper {
+    right: 5rem;
+  }
+
+  .tutorial__grid {
+    margin-left: -21rem;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .tutorial__grid {
+    margin-left: -33rem;
+  }
+
+  .materiaal--lijst__wrapper {
+    margin-top: 3rem;
+  }
+
+  .button__wrapper {
+    display: flex;
+  }
+
+  .button__wrapper {
+ 
+    margin: 10rem 0 0 32rem;
+    display: flex;
+}
 }

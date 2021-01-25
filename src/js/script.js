@@ -1,14 +1,14 @@
-require("../css/style.css");
+require('../css/style.css');
 
-import WebFont from "webfontloader";
+import WebFont from 'webfontloader';
 
 WebFont.load({
   custom: {
-    families: ["grotesk"],
-    urls: ["assets/fonts.css"],
+    families: ['grotesk'],
+    urls: ['assets/fonts.css'],
   },
   google: {
-    families: ["Droid Sans", "Droid Serif"],
+    families: ['Droid Sans', 'Droid Serif'],
   },
 });
 
@@ -27,7 +27,7 @@ const sectionLoader = () => {
   const buttonNext = document.querySelector(`.button__next`);
   const buttonEnd = document.querySelector(`.button__end`);
 
-  buttonNext.addEventListener(`click`, (e) => {
+  buttonNext.addEventListener(`click`, e => {
     e.preventDefault();
 
     if (count < 6) {
@@ -36,6 +36,8 @@ const sectionLoader = () => {
       if (count === 1) {
         step1.classList.add(`hidden`);
         step2.classList.remove(`hidden`);
+
+        buttonPrevious.classList.remove(`hidden`);
       }
     }
 
@@ -68,7 +70,7 @@ const sectionLoader = () => {
     }
   });
 
-  buttonPrevious.addEventListener(`click`, (e) => {
+  buttonPrevious.addEventListener(`click`, e => {
     e.preventDefault();
 
     count -= 1;
@@ -76,6 +78,8 @@ const sectionLoader = () => {
     if (count === 0) {
       step1.classList.remove(`hidden`);
       step2.classList.add(`hidden`);
+
+      buttonPrevious.classList.add(`hidden`);
     }
 
     if (count === 1) {
@@ -116,6 +120,7 @@ const sectionLoader = () => {
 
       buttonEnd.classList.add(`hidden`);
       buttonPrevious.classList.remove(`hidden`);
+      buttonNext.classList.remove(`hidden`);
     }
 
     if (count === 6) {
@@ -123,6 +128,7 @@ const sectionLoader = () => {
 
       buttonNext.classList.add(`hidden`);
       buttonEnd.classList.remove(`hidden`);
+      buttonNext.classList.remove(`hidden`);
     }
   });
 };
