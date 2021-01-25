@@ -1,3 +1,43 @@
-.hide {
-    display: none;
+.container--tutorial {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.button__wrapper {
+  margin-left: 36rem;
+  margin-top: 8rem;
+
+  margin: 10rem 0 0 36rem;
+}
+
+.tut__wrapper {
+  margin-left: 5rem;
+}
+
+.step {
+  margin-left: 35rem;
+}
+
+.tutorial__grid {
+  margin: 0 0 10rem -11rem;
+}
+
+.titel__tutorial {
+  font-size: var(--titelTut);
+  color: var(--kleurRood);
+}
+
+.tutorial__uitleg {
+  font-size: var(--paginaTekst);
+  margin-bottom: 3.3rem;
+}
+
+.materiaal--lijst__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  position: absolute;
+  top: 56rem;
+  right: 50rem;
+  left: 76rem;
 }
