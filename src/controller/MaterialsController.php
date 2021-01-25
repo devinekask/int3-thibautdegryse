@@ -33,7 +33,14 @@ class MaterialsController extends Controller {
     $this->set('makers', $makers);
     $this->set('materials', $materials);
     $this->set('currentPage', 'shop');
-    $this->set('title', 'Bestel nu bij ons <3');
+    $this->set('title', 'Bestel nu bij ons');
+
+  }
+
+  public function tutorial() {
+
+    $this->set('currentPage', 'tutorial');
+    $this->set('title', 'De drijvende strandstoel');
 
   }
 }

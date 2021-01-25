@@ -65,17 +65,17 @@
                   <div class="radio__wrapper">
                      <input class="radio__input" type="radio" id="betaaloptie1"
                         name="optie" value="bancontact">
-                     <label class="form__label" for="betaaloptie1">bancontact<img class="payment__optie" src="assets/images/bancontact.png" alt=""></label>
+                     <label class="form__label" for="betaaloptie1">bancontact<img class="payment__optie" src="assets/images/bancontact.webp" alt=""></label>
                   </div>
                   <div class="radio__wrapper">
                      <input class="radio__input" type="radio" id="betaaloptie2"
                         name="optie" value="paypal">
-                     <label class="form__label" for="betaaloptie2">paypal<img class="payment__optie" src="assets/images/paypal.png" alt=""></label>
+                     <label class="form__label" for="betaaloptie2">paypal<img class="payment__optie" src="assets/images/paypal.webp" alt=""></label>
                   </div>
                   <div class="radio__wrapper">            
                      <input class="radio__input" type="radio" id="betaaloptie3"
                         name="optie" value="mastercard">
-                     <label class="form__label" for="betaaloptie3">mastercard<img class="payment__optie" src="assets/images/mastercard.png" alt=""></label>
+                     <label class="form__label" for="betaaloptie3">mastercard<img class="payment__optie" src="assets/images/mastercard.webp" alt=""></label>
                   </div>
                </section>
                <section class="form__winkelmandje">

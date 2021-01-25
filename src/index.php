@@ -18,10 +18,15 @@ $routes = array(
     'controller' => 'Materials',
     'action' => 'kits'
   ),
+  'tutorial' => array(
+    'controller' => 'Materials',
+    'action' => 'tutorial'
+  ),
   'form' => array(
     'controller' => 'Orders',
     'action' => 'form'
   )
+
 
 );
 
