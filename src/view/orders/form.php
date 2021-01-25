@@ -7,39 +7,57 @@
                <input type="hidden" name="action" value="insertOrder"> 
                <section class="form__gegevens">
                   <h2 class="form__titel">gegevens</h2>
+
                   <div class="input__wrapper">
                      <label class="form__label" for="naam">naam</label>
-                     <input class="form__input form__input--naam" placeholder="Mark Maker" required type="text" id="naam" name="naam" value="<?php if(!empty($_POST['naam'])){ echo $_POST['naam'];} ?>">
+                     <input class="input form__input form__input--naam" placeholder="Mark Maker" required type="text" id="naam" name="naam" value="<?php if(!empty($_POST['naam'])){ echo $_POST['naam'];} ?>">
+                     <span class="error"><?php if(!empty($errors['naam'])){ echo $errors['naam'];} ?></span>
+
                   </div>
                   <div class="input__wrapper">
                      <label class="form__label" for="postcode">postcode</label>
-                     <input class="form__input" placeholder="gemeente / postcode" required type="text" id="postcode" name="postcode" value="<?php if(!empty($_POST['postcode'])){ echo $_POST['postcode'];} ?>">
+                     <input class="input form__input" placeholder="postcode" required type="text" id="postcode" name="postcode" value="<?php if(!empty($_POST['postcode'])){ echo $_POST['postcode'];} ?>">
+                     <span class="error"><?php if(!empty($errors['postcode'])){ echo $errors['postcode'];} ?></span>
+
                   </div>
                   <div class="address__wrapper">
                      <div class="input__wrapper">
                         <label class="form__label" for="straat">straat</label>
-                        <input class="form__input form__input--straat" placeholder="Chinastraat" required type="text" id="straat" name="straat" value="<?php if(!empty($_POST['straat'])){ echo $_POST['straat'];} ?>">
+                        <input class="input form__input form__input--straat" placeholder="Chinastraat" required type="text" id="straat" name="straat" value="<?php if(!empty($_POST['straat'])){ echo $_POST['straat'];} ?>">
+                        <span class="error"><?php if(!empty($errors['straat'])){ echo $errors['straat'];} ?></span>
+
                      </div>
                      <div class="input__wrapper">
                         <label class="form__label" for="nr">nr.</label>
-                        <input class="form__input form__input--nrbus" placeholder="2" required type="text" id="nr" name="nr" value="<?php if(!empty($_POST['nr'])){ echo $_POST['nr'];} ?>">
+                        <input class="input form__input form__input--nrbus" placeholder="2" required type="text" id="nr" name="nr" value="<?php if(!empty($_POST['nr'])){ echo $_POST['nr'];} ?>">
+                        <span class="error"><?php if(!empty($errors['nr'])){ echo $errors['nr'];} ?></span>
+
                      </div>
                      <div class="input__wrapper">
                         <label class="form__label" for="bus">bus</label>
-                        <input class="form__input form__input--nrbus" placeholder="2A" type="text" id="bus" name="bus" value="<?php if(!empty($_POST['bus'])){ echo $_POST['bus'];} ?>">
+                        <input class="input form__input form__input--nrbus" placeholder="2A" type="text" id="bus" name="bus" value="<?php if(!empty($_POST['bus'])){ echo $_POST['bus'];} ?>">
+
                      </div>
                   </div>
                   <div class="input__wrapper">
-                     <label class="form__label" for="datum">datum</label>
-                     <input class="form__input" required type="date" id="datum" name="datum" value="<?php if(!empty($_POST['datum'])){ echo $_POST['datum'];} ?>">
+                     <label class="form__label" for="datum">Geboortedatum</label>
+                     <input class="input form__input" required type="date" id="datum" name="datum" value="<?php if(!empty($_POST['datum'])){ echo $_POST['datum'];} ?>">
+                     <span class="error"><?php if(!empty($errors['datum'])){ echo $errors['datum'];} ?></span>
+
                   </div>
                   <div class="input__wrapper">
                      <label class="form__label" for="telefoon">telefoon</label>
-                     <input class="form__input" placeholder="0498123456" required type="tel" id="telefoon" name="telefoon" value="<?php if(!empty($_POST['telefoon'])){ echo $_POST['telefoon'];} ?>">
+                     <input class="input form__input" placeholder="0498123456" required type="tel" id="telefoon" name="telefoon" value="<?php if(!empty($_POST['telefoon'])){ echo $_POST['telefoon'];} ?>">
+                     <span class="error"><?php if(!empty($errors['telefoon'])){ echo $errors['telefoon'];} ?></span>
+
                   </div>
                   <div class="input__wrapper">
+
+
                      <label class="form__label" for="email">email</label>
-                     <input class="form__input" placeholder="mark.maker@faire.be" required type="email" id="email" name="email" value="<?php if(!empty($_POST['email'])){ echo $_POST['email'];} ?>">
+                     <input class="input form__input" placeholder="mark.maker@faire.be" required type="email" id="email" name="email" value="<?php if(!empty($_POST['email'])){ echo $_POST['email'];} ?>">
+                     <span class="error"><?php if(!empty($errors['email'])){ echo $errors['email'];} ?></span>
+
                   </div>
                </section>
                <section class="form__betalen">

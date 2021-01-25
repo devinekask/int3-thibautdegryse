@@ -3,6 +3,13 @@
   margin-top: 1.7rem;
 }
 
+.error {
+  color: #c00;
+  font-size: var(--form);
+  margin-top: .3rem;
+  margin-left: .4rem;
+}
+
 .hidden--button {
   display: none;
 }

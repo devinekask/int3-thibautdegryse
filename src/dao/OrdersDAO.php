@@ -44,13 +44,23 @@ class OrdersDAO extends DAO {
      if(empty($data['naam'])){
        $errors['naam'] = 'Gelieve een naam in te geven.';
      }
-
+     if(empty($data['postcode'])){
+      $errors['postcode'] = 'Gelieve een postcode in te geven.';
+    }
+    if(empty($data['straat'])){
+      $errors['straat'] = 'Gelieve een straat in te geven.';
+    }
+    if(empty($data['nr'])){
+      $errors['nr'] = 'Gelieve een nr in te geven.';
+    }
+    if(empty($data['datum'])){
+      $errors['datum'] = 'Gelieve een datum in te geven.';
+    }
+    if(empty($data['telefoon'])){
+      $errors['telefoon'] = 'Gelieve een telefoon nummer in te geven.';
+    }
    if(empty($data['email'])){
      $errors['email'] = 'Gelieve een email in te geven.';
-   
-   }
-   if(empty($data['telefoon'])){
-     $errors['telefoon'] = 'Gelieve een telefoon nummer in te geven.';
    
    }
    
