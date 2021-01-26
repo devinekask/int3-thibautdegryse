@@ -9,7 +9,12 @@
          </div>
 
          <section class="step step1">
-            <img class="afbeelding__tutorial" src="assets/tutorial/stap1.png" alt="">
+         <picture>
+               <source srcset="assets/tutorial/stap1-1440.png" media="(max-width: 1440px)">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap1.png" alt="">
+         </picture>
+
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 1: Het drijfsysteem</h2>
                <p class="tutorial__uitleg">
@@ -25,7 +30,11 @@
             </div>
          </section>
          <section class="step step2 hidden">
+
+         <picture>
+               <source srcset="assets/tutorial/stap2-1440.png" media="(max-width: 1440px)">
          <img class="afbeelding__tutorial" src="assets/tutorial/stap2.png" alt="">
+         </picture>
 
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 2: Het drijfsysteem</h2>
@@ -49,7 +58,10 @@
             </div>
          </section>
          <section class="step step3 hidden">
-         <img class="afbeelding__tutorial" src="assets/tutorial/stap3.png" alt="">
+            <picture>
+               <source srcset="assets/tutorial/stap3-1440.png" media="(max-width: 1440px)">
+               <img class="afbeelding__tutorial" src="assets/tutorial/stap3.png" alt="">
+            </picture>
 
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 3: Het stuursysteem</h2>
@@ -69,7 +81,10 @@
             </div>
          </section>
          <section class="step step4 hidden">
+         <picture>
+               <source srcset="assets/tutorial/stap4-1440.png" media="(max-width: 1440px)">
          <img class="afbeelding__tutorial" src="assets/tutorial/stap4.png" alt="">
+         </picture>
 
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 4: Het stuursysteem</h2>
@@ -97,8 +112,10 @@
             </div>
          </section>
          <section class="step step5 hidden">
+         <picture>
+               <source srcset="assets/tutorial/stap5-1440.png" media="(max-width: 1440px)">
          <img class="afbeelding__tutorial" src="assets/tutorial/stap5.png" alt="">
-
+         </picture>
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 5: De stuurvin</h2>
                <p class="tutorial__uitleg">
@@ -118,8 +135,10 @@
             </div>
          </section>
          <section class="step step6 hidden">
+         <picture>
+               <source srcset="assets/tutorial/stap6-1440.png" media="(max-width: 1440px)">
          <img class="afbeelding__tutorial" src="assets/tutorial/stap6.png" alt="">
-
+         </picture>
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 6: De stuurvin</h2>
                <p class="tutorial__uitleg">

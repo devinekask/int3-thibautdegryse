@@ -74,10 +74,17 @@
 
   .button__wrapper {
     display: flex;
+    margin: 10rem 0 0 29rem;
   }
 
   .button__wrapper {
     margin: 10rem 0 0 32rem;
     display: flex;
+  }
+
+  .afbeelding__tutorial {
+    left: 0rem;
+
+    z-index: -1;
   }
 }
