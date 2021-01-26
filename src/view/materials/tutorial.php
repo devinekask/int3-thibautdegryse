@@ -5,9 +5,11 @@
          <div class="button__wrapper">
             <button class="hidden button button--meer button__previous" href="">vorige stap</button>
             <button class="button button--tut button__next">volgende stap</button>
-            <a class="hidden button__end" href="index.php" class="hidden button__end">terug naar de homepage</a>
+            <a class="hidden button__end button button--tut" href="index.php" class="hidden button__end">naar de homepage</a>
          </div>
+
          <section class="step step1">
+            <img class="afbeelding__tutorial" src="assets/tutorial/stap1.png" alt="">
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 1: Het drijfsysteem</h2>
                <p class="tutorial__uitleg">
@@ -17,16 +19,14 @@
             <img class="tutorial__grid" src="assets/grids/tutorial-grid.svg" alt="een grid die de afbeeldingen ophoud">
             <div class="materiaal--lijst__wrapper">
                <div class="materiaal__wrapper">
-                  <img width="166" height="166" src="assets/images/drijfband.png" alt="drijfband">
-                  <p class="materiaal__naam">drijfband</p>
-               </div>
-               <div class="materiaal__wrapper">
                   <img width="166" height="166" src="assets/images/staven.png" alt="drijfband">
                   <p class="materiaal__naam">drijfband</p>
                </div>
             </div>
          </section>
          <section class="step step2 hidden">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap2.png" alt="">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 2: Het drijfsysteem</h2>
                <p class="tutorial__uitleg">
@@ -49,6 +49,8 @@
             </div>
          </section>
          <section class="step step3 hidden">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap3.png" alt="">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 3: Het stuursysteem</h2>
                <p class="tutorial__uitleg">
@@ -67,6 +69,8 @@
             </div>
          </section>
          <section class="step step4 hidden">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap4.png" alt="">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 4: Het stuursysteem</h2>
                <p class="tutorial__uitleg">
@@ -93,6 +97,8 @@
             </div>
          </section>
          <section class="step step5 hidden">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap5.png" alt="">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 5: De stuurvin</h2>
                <p class="tutorial__uitleg">
@@ -112,6 +118,8 @@
             </div>
          </section>
          <section class="step step6 hidden">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap6.png" alt="">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 6: De stuurvin</h2>
                <p class="tutorial__uitleg">
@@ -139,6 +147,7 @@
             </div>
          </section>
          <section class="step step7 hidden">
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 7: Accessoires</h2>
                <p class="tutorial__uitleg">

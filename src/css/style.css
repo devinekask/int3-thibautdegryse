@@ -8,7 +8,6 @@
 @import url(form.css);
 @import url(tutorial.css);
 
-
 html {
   font-size: 62.5%;
   background-color: var(--kleurWit);
@@ -35,8 +34,6 @@ body {
 .hidden {
   display: none;
 }
-
-/* CONTENT */
 
 .container {
   margin: 0 auto;
