@@ -39,6 +39,7 @@
          </section>
          <section class="about__section lieven__section">
             <picture>
+               
                <source srcset="assets/images/lieven-414.webp" media="(max-width: 414px)">
                <img class="lieven" src="assets/images/lieven.webp" width="351" height="365" alt="lieven scheire die een strandbal gooit">
             </picture>

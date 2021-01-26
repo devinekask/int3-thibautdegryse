@@ -28,7 +28,6 @@ class OrdersController extends Controller {
             $data['datum'] = $_POST['datum'];
             $data['telefoon'] = $_POST['telefoon'];
             $data['email'] = $_POST['email'];
-            $data['betaaloptie'] = $_POST['betaaloptie'];
   
              
             $insertedOrder = $this->ordersDAO->insertOrder($data);
@@ -37,13 +36,13 @@ class OrdersController extends Controller {
                 $this->set('errors',$errors);
               }else{
                 $_SESSION['info'] = 'Bedankt voor je order';
-                header('Location:index.php?page=about');
+                header('Location:index.php?page=index');
                 exit();
               }
             }
            }
     $this->set('currentPage', 'order');
-    $this->set('title', 'Bestel nu bij ons <3');
+    $this->set('title', 'Bestel nu bij ons');
 
   }
 

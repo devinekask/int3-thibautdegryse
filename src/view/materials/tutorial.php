@@ -167,6 +167,11 @@
          </section>
          <section class="step step7 hidden">
 
+         <picture>
+               <source srcset="assets/tutorial/stap7-1440.png" media="(max-width: 1440px)">
+         <img class="afbeelding__tutorial" src="assets/tutorial/stap7.png" alt="">
+         </picture>
+
             <div class="tut__wrapper">
                <h2 class="titel__tutorial">Stap 7: Accessoires</h2>
                <p class="tutorial__uitleg">
